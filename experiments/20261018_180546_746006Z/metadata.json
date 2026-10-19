@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "commits": [
+    "87b57851e9e55b91d8471960fef9b4ca4c373837",
+    "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985"
+  ],
+  "config": {
+    "commits": [
+      "87b57851e9",
+      "6da4704cbf"
+    ],
+    "repeats": 30,
+    "loops": 200,
+    "warmups": 5,
+    "size": 35,
+    "threshold": 5.0,
+    "seed": 42
+  },
+  "created_utc": "2026-10-18T18:05:46.778413+00:00",
+  "python": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD",
+  "executable": "C:\\Users\\fjzg\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "git": "git version 2.54.0.windows.1",
+  "benchmark_sha256": "dd63273659fa37dbdca841d4f048b5098b04348cd505dd3aec35cf2450efc986",
+  "measurement": "Randomized pairs; one fresh process per observation; GC enabled",
+  "bootstrap_samples": 5000,
+  "confidence": 0.95
+}
