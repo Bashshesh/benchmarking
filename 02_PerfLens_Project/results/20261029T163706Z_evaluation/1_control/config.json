@@ -1,0 +1,41 @@
+{
+  "name": "control",
+  "session": 1,
+  "seed": 1730,
+  "rounds": 20,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "reference",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "baseline",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ]
+    },
+    {
+      "name": "unchanged",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "baseline",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ]
+    }
+  ],
+  "target_seconds": 0.003
+}

@@ -1,0 +1,94 @@
+{
+  "machine_role": "office",
+  "suite": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\results\\office-20261103\\20261103T152546Z_evaluation",
+  "observations": 680,
+  "checks": [
+    {
+      "comparison": "1_control",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_cpu_contention",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_cpu_mitigation",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_injection",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_java_optimization",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_java_runtime",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_java_warmup",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_python_optimization",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "1_python_scaling",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_control",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_cpu_contention",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_cpu_mitigation",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_injection",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_java_optimization",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_java_runtime",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_java_warmup",
+      "observations": 40,
+      "status": "cross-check passed"
+    },
+    {
+      "comparison": "2_python_optimization",
+      "observations": 40,
+      "status": "cross-check passed"
+    }
+  ],
+  "basis": "Dual raw representations, config hashes, completion and source snapshot hashes",
+  "limitations": "Does not prove timer truthfulness, independence, bootstrap coverage, or universal classifier accuracy"
+}

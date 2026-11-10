@@ -1,0 +1,31 @@
+{
+  "comparison": {
+    "change_percent": 226.05448462828602,
+    "ci95_percent": [
+      223.15656282007436,
+      228.62561604345606
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "summaries": {
+    "numpy_1_26_4": {
+      "n": 20,
+      "mean_seconds": 0.0006183707003947348,
+      "median_seconds": 0.0006161199999041855,
+      "sd_seconds": 1.2017902641550758e-05,
+      "variance_seconds2": 1.4442998390179267e-10,
+      "cv_percent": 1.9434786664179224
+    },
+    "numpy_2_0_0": {
+      "n": 20,
+      "mean_seconds": 0.002016225400264375,
+      "median_seconds": 0.002016307001467794,
+      "sd_seconds": 1.4230423137315115e-05,
+      "variance_seconds2": 2.0250494266703335e-10,
+      "cv_percent": 0.7057952516345231
+    }
+  },
+  "target": null
+}

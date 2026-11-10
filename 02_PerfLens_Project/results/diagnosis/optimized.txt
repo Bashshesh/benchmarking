@@ -1,0 +1,17 @@
+         49031 function calls in 0.014 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       10    0.000    0.000    0.014    0.001 graph_queries.py:15(query)
+       10    0.000    0.000    0.014    0.001 <class 'networkx.utils.decorators.argmap'> compilation 24:1(argmap_single_source_shortest_path_length_21)
+       10    0.000    0.000    0.014    0.001 backends.py:541(_call_if_no_backends_installed)
+       10    0.002    0.000    0.014    0.001 unweighted.py:21(single_source_shortest_path_length)
+    12260    0.009    0.000    0.012    0.000 unweighted.py:83(_single_shortest_path_length)
+    12240    0.001    0.000    0.001    0.000 {method 'add' of 'set' objects}
+    12240    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+    12240    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       10    0.000    0.000    0.000    0.000 graph.py:472(__contains__)
+
+

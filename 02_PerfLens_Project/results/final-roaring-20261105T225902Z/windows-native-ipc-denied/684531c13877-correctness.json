@@ -1,0 +1,17 @@
+{
+  "command": [
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "-Xms512m",
+    "-Xmx512m",
+    "-Djava.io.tmpdir=C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/.tmp/final845/final-roaring-20261105T225902Z/native-scratch",
+    "-Djava.security.manager",
+    "-Djava.security.policy==file:///C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/results/final-roaring-20261105T225902Z/windows-native/benchmark.policy",
+    "-cp",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\harness;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\library;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\deps\\commons-math3-3.6.1.jar;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\deps\\jmh-core-1.37.jar;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\deps\\jmh-generator-annprocess-1.37.jar;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\684531c13877\\deps\\jopt-simple-5.0.4.jar",
+    "perflens.external.CorrectnessMain"
+  ],
+  "returncode": 0,
+  "stdout": "{\"valid\":true,\"checksum\":458211,\"cases\":24,\"oracle\":\"boolean membership\"}\n",
+  "stderr": "WARNING: A command line option has enabled the Security Manager\nWARNING: The Security Manager is deprecated and will be removed in a future release\n",
+  "elapsed_seconds": 1.2810000000754371
+}

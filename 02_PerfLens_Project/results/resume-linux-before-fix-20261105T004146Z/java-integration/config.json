@@ -1,0 +1,35 @@
+{
+  "name": "linux-java",
+  "rounds": 5,
+  "seed": 845,
+  "arms": [
+    {
+      "name": "A",
+      "command": [
+        "/opt/java/openjdk/bin/java",
+        "-cp",
+        "/out/classes",
+        "SearchBench",
+        "optimized",
+        "3",
+        "7",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "name": "B",
+      "command": [
+        "/opt/java/openjdk/bin/java",
+        "-cp",
+        "/out/classes",
+        "SearchBench",
+        "optimized",
+        "3",
+        "7",
+        "1",
+        "0"
+      ]
+    }
+  ]
+}

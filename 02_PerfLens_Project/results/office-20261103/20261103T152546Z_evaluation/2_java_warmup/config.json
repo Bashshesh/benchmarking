@@ -1,0 +1,38 @@
+{
+  "name": "java_warmup",
+  "session": 2,
+  "seed": 1731,
+  "rounds": 20,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "no_warmup",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "optimized",
+        "20000",
+        "2000",
+        "5",
+        "0"
+      ]
+    },
+    {
+      "name": "20_warmups",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "optimized",
+        "20000",
+        "2000",
+        "5",
+        "20"
+      ]
+    }
+  ]
+}

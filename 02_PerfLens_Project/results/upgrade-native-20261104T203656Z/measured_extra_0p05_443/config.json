@@ -1,0 +1,29 @@
+{
+  "name": "measured_extra_0p05_443",
+  "arms": [
+    {
+      "name": "unchanged_reference",
+      "command": [
+        "{python}",
+        "{root}/upgrade/workloads/redundant.py",
+        "--extra",
+        "0"
+      ]
+    },
+    {
+      "name": "work_intervention",
+      "command": [
+        "{python}",
+        "{root}/upgrade/workloads/redundant.py",
+        "--extra",
+        "0.05"
+      ]
+    }
+  ],
+  "seed": 443,
+  "rounds": 5,
+  "threshold": 5,
+  "timeout": 120,
+  "phase": "measured calibration intervention; effect truth unknown",
+  "target": ">5% internal-time improvement against reference, with observed CPU ratio <=1.10 for runtime recommendation"
+}

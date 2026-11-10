@@ -1,0 +1,17 @@
+{
+  "immutable_original_files_verified": 542,
+  "intentional_versioned_changes": {
+    "process_control.py": {
+      "original_sha256": "cef9b1cecc58eedea74391ad5b2c7314b53c0e4a82bcfed5d491b2f24c6c93e7",
+      "upgraded_sha256": "ccc6b1688d9d5060464759b279bb84d1fe10b78952cf6af9ff811fd1d2e196eb"
+    },
+    "tests/test_runner.py": {
+      "original_sha256": "c860b5deb17a319f0cf5b5c80c6868d6866e3b4c8968e022a55899dda28fe270",
+      "upgraded_sha256": "38bbfd8c2a6a9dd19c4c39bfba31cc6320a72196ecd529349a75e48856b365b5"
+    }
+  },
+  "archived_original_entries_verified": 1116,
+  "original_manifest": "preserved; describes the pre-upgrade checkpoint",
+  "originals_snapshot_sha256": "8dbbe524d29f27e1f9ec0a177727be86fe7c4c7174adce546bb7c7b6aa4b224f",
+  "previous_history": "preserved starting Git commit 111accf plus original history.bundle and archive/misc.zip"
+}

@@ -1,0 +1,85 @@
+{
+  "comparison": {
+    "change_percent": 13.584114325812923,
+    "ci95_percent": [
+      8.919766260260541,
+      19.61628786762177
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "summaries": {
+    "default": {
+      "n": 8,
+      "mean_seconds": 0.00030547869375,
+      "median_seconds": 0.00030376595,
+      "sd_seconds": 1.0486013553860263e-05,
+      "variance_seconds2": 1.0995648025174116e-10,
+      "cv_percent": 3.432649729228542
+    },
+    "tier1": {
+      "n": 8,
+      "mean_seconds": 0.00034697526875,
+      "median_seconds": 0.00033863639999999993,
+      "sd_seconds": 2.0952320267300407e-05,
+      "variance_seconds2": 4.3899972458352743e-10,
+      "cv_percent": 6.038563020004984
+    }
+  },
+  "target": null,
+  "secondary_metrics": {
+    "default": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.00028613281250000004,
+        "min": 0.0002734375,
+        "max": 0.0003046875
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.152,
+        "min": 0.152,
+        "max": 0.152
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 3276.7960667550124,
+        "min": 3045.539959007032,
+        "max": 3387.4610082066324
+      }
+    },
+    "tier1": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.000314453125,
+        "min": 0.0002578125,
+        "max": 0.000359375
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.08,
+        "min": 0.08,
+        "max": 0.08
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 2890.783158146773,
+        "min": 2579.0454875279293,
+        "max": 3050.443351436698
+      }
+    }
+  },
+  "dependence": {
+    "default": {
+      "lag_one_descriptive": -0.2637590325235893,
+      "second_half_change_percent": 2.330242793769499,
+      "n": 8
+    },
+    "tier1": {
+      "lag_one_descriptive": 0.4222671752630785,
+      "second_half_change_percent": 7.997204576084815,
+      "n": 8
+    }
+  }
+}

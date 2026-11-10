@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "reference",
+    "candidate"
+  ],
+  "case": "runtime",
+  "method": "default-v-tier1"
+}

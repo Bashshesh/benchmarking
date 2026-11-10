@@ -1,0 +1,32 @@
+test_invalid_timings (test_analysis.AnalysisTests.test_invalid_timings) ... ok
+test_known_effect_and_shared_drift (test_analysis.AnalysisTests.test_known_effect_and_shared_drift) ... ok
+test_partial_and_failed_runs_are_rejected (test_analysis.AnalysisTests.test_partial_and_failed_runs_are_rejected) ... ok
+test_statistical_and_practical_are_different (test_analysis.AnalysisTests.test_statistical_and_practical_are_different) ... ok
+test_uncertainty_and_reproducibility (test_analysis.AnalysisTests.test_uncertainty_and_reproducibility) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.168s
+
+OK
+test_drift_diagnostic_does_not_claim_independence (test_upgrade.UpgradeTests.test_drift_diagnostic_does_not_claim_independence) ... ok
+test_one_jmh_fork_is_one_sample_not_each_iteration (test_upgrade.UpgradeTests.test_one_jmh_fork_is_one_sample_not_each_iteration) ... ok
+test_recommendation_requires_correctness_confirmation_and_resource_evidence (test_upgrade.UpgradeTests.test_recommendation_requires_correctness_confirmation_and_resource_evidence) ... ok
+test_redundant_workload_has_independent_known_results (test_upgrade.UpgradeTests.test_redundant_workload_has_independent_known_results) ... ok
+test_unknown_or_instrumenting_configuration_is_rejected (test_upgrade.UpgradeTests.test_unknown_or_instrumenting_configuration_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+test_utf8_stdout_and_stderr_are_retained (test_java_capture.CaptureTests.test_utf8_stdout_and_stderr_are_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.135s
+
+OK
+test_successful_parent_cannot_leave_detached_descendant_running (test_process_cleanup.JobLifetimeTests.test_successful_parent_cannot_leave_detached_descendant_running) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.665s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "event_counts": {
+    "jdk.Compilation": 298,
+    "jdk.ObjectAllocationSample": 6,
+    "jdk.ExecutionSample": 515,
+    "jdk.CPULoad": 8,
+    "jdk.ThreadCPULoad": 10
+  },
+  "compilation_levels": {
+    "3": 199,
+    "1": 30,
+    "2": 7,
+    "4": 62
+  },
+  "recording_sha256": "60c94c32d8457c0ca75daa60da5bf4f68b99c00cc40c202f7847d719c2174452",
+  "limit": "counts depend on instrumented duration, settings and operation budget; do not compare raw counts as speedups"
+}

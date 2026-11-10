@@ -1,0 +1,422 @@
+{
+  "groups": [
+    {
+      "effect": 0,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 30,
+        "inconclusive": 0
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 30,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 20,
+        "inconclusive": 10
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 20,
+      "inconclusive_frequency": 0.3333333333333333,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 1,
+        "within_threshold": 0,
+        "inconclusive": 29
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 1,
+      "inconclusive_frequency": 0.9666666666666667,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0.02,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 30,
+        "inconclusive": 0
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 30,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.9333333333333333
+    },
+    {
+      "effect": 0.02,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 15,
+        "inconclusive": 15
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 15,
+      "inconclusive_frequency": 0.5,
+      "empirical_interval_coverage": 0.8666666666666667
+    },
+    {
+      "effect": 0.02,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 30
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 0,
+      "inconclusive_frequency": 1.0,
+      "empirical_interval_coverage": 0.9333333333333333
+    },
+    {
+      "effect": 0.05,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 1,
+        "improvement": 0,
+        "within_threshold": 1,
+        "inconclusive": 28
+      },
+      "truth": "boundary",
+      "regression_flag_rate": 0.03333333333333333,
+      "regression_flag_ci95": [
+        0.0008435709266305103,
+        0.17216945563341263
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.9333333333333333,
+      "empirical_interval_coverage": 0.9333333333333333
+    },
+    {
+      "effect": 0.05,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 1,
+        "improvement": 0,
+        "within_threshold": 2,
+        "inconclusive": 27
+      },
+      "truth": "boundary",
+      "regression_flag_rate": 0.03333333333333333,
+      "regression_flag_ci95": [
+        0.0008435709266305103,
+        0.17216945563341263
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.9,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0.05,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 30
+      },
+      "truth": "boundary",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 1.0,
+      "empirical_interval_coverage": 0.9333333333333333
+    },
+    {
+      "effect": 0.1,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 30,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "regression",
+      "regression_flag_rate": 1.0,
+      "regression_flag_ci95": [
+        0.884296691777972,
+        1.0
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 0,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.8333333333333334
+    },
+    {
+      "effect": 0.1,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 23,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 7
+      },
+      "truth": "regression",
+      "regression_flag_rate": 0.7666666666666667,
+      "regression_flag_ci95": [
+        0.5771634770217804,
+        0.9006621350419803
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 7,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.23333333333333334,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0.1,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 7,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 23
+      },
+      "truth": "regression",
+      "regression_flag_rate": 0.23333333333333334,
+      "regression_flag_ci95": [
+        0.09933786495801972,
+        0.4228365229782195
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 23,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.7666666666666667,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0.3,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 30,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "regression",
+      "regression_flag_rate": 1.0,
+      "regression_flag_ci95": [
+        0.884296691777972,
+        1.0
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 0,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.8666666666666667
+    },
+    {
+      "effect": 0.3,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 30,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "regression",
+      "regression_flag_rate": 1.0,
+      "regression_flag_ci95": [
+        0.884296691777972,
+        1.0
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 0,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.9
+    },
+    {
+      "effect": 0.3,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 30,
+        "improvement": 0,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "regression",
+      "regression_flag_rate": 1.0,
+      "regression_flag_ci95": [
+        0.884296691777972,
+        1.0
+      ],
+      "false_negatives_decisive": 0,
+      "missed_detections_including_inconclusive": 0,
+      "false_positives": null,
+      "true_negatives_decisive": null,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 1.0
+    },
+    {
+      "effect": -0.15,
+      "cv": 0.01,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 30,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 30,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.8333333333333334
+    },
+    {
+      "effect": -0.15,
+      "cv": 0.05,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 30,
+        "within_threshold": 0,
+        "inconclusive": 0
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 30,
+      "inconclusive_frequency": 0.0,
+      "empirical_interval_coverage": 0.9666666666666667
+    },
+    {
+      "effect": -0.15,
+      "cv": 0.2,
+      "n": 30,
+      "outcomes": {
+        "regression": 0,
+        "improvement": 10,
+        "within_threshold": 0,
+        "inconclusive": 20
+      },
+      "truth": "nonregression",
+      "regression_flag_rate": 0.0,
+      "regression_flag_ci95": [
+        0.0,
+        0.11570330822202785
+      ],
+      "false_negatives_decisive": null,
+      "missed_detections_including_inconclusive": null,
+      "false_positives": 0,
+      "true_negatives_decisive": 10,
+      "inconclusive_frequency": 0.6666666666666666,
+      "empirical_interval_coverage": 0.9333333333333333
+    }
+  ],
+  "elapsed_seconds": 139.23658520000754,
+  "raw_sha256": "a5da0e96c3f36e266e60be95855f466ec7cbf78fefe5d698097ed62358307eff",
+  "classifications_sha256": "87f6e2515e0e567bf069eb2c5680bbc204d7ef3a5f7675aceaeae344ba34dfe0",
+  "limitation": "Only specified synthetic lognormal model; no calibrated detector accuracy on arbitrary hardware/software"
+}

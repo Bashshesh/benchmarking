@@ -1,0 +1,1192 @@
+{
+  "status": "all included completed JMH raw/label/pair/summary checks passed",
+  "case_count": 9,
+  "observations": 156,
+  "cases": [
+    {
+      "case": "results\\upgrade-java-20261104T233351Z\\rank-65535",
+      "arms": [
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+        "684531c13877fbdacccf02262b32e6faf889d76f"
+      ],
+      "pairs": 10,
+      "observations": 20,
+      "comparison": {
+        "change_percent": -99.48830976457582,
+        "ci95_percent": [
+          -99.5027513190882,
+          -99.47508320052678
+        ],
+        "statistical_direction": "faster",
+        "threshold_percent": 5,
+        "decision": "improvement"
+      },
+      "summaries": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "n": 10,
+          "mean_seconds": 3.426057329769119e-07,
+          "median_seconds": 3.382310964299975e-07,
+          "sd_seconds": 1.53155512309108e-08,
+          "variance_seconds2": 2.3456610950665324e-16,
+          "cv_percent": 4.470313762070908
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "n": 10,
+          "mean_seconds": 1.753080081646278e-09,
+          "median_seconds": 1.7530414803021316e-09,
+          "sd_seconds": 3.010363420688518e-11,
+          "variance_seconds2": 9.062287924619477e-22,
+          "cv_percent": 1.7171853426465
+        }
+      },
+      "dependence": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "lag_one_descriptive": 0.038247283933728955,
+          "second_half_change_percent": -0.3515682780399487,
+          "n": 10
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "lag_one_descriptive": -0.07557572576225507,
+          "second_half_change_percent": -0.019302115893216065,
+          "n": 10
+        }
+      },
+      "order_group_means": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "0": 3.345949156926044e-07,
+          "1": 3.4603894038447224e-07
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "0": 1.757353681697047e-09,
+          "1": 1.7431083481944836e-09
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": [
+          4.745610064646029,
+          4.9336605299645155,
+          5.155827531841334,
+          2.864378238386907,
+          1.232290741090934,
+          0.6085058144519342,
+          1.06003288963956,
+          1.010366015914886,
+          3.6234396346438196,
+          7.154878901749797
+        ],
+        "684531c13877fbdacccf02262b32e6faf889d76f": [
+          1.1275212047218164,
+          2.507833031689499,
+          0.9788151906914669,
+          1.0989345687166903,
+          1.9662749200731289,
+          1.3961316613382322,
+          1.8888137573487327,
+          1.8580706462637857,
+          2.0517464516880355,
+          4.455348499886861
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.13636836844796577,
+        2.0162149602042327
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -99.50372387715586,
+        -99.47278618804037
+      ],
+      "command_text_capture_warnings": 1,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 195.43073734268805,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\upgrade-java-20261104T233351Z\\rank-65534",
+      "arms": [
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+        "684531c13877fbdacccf02262b32e6faf889d76f"
+      ],
+      "pairs": 10,
+      "observations": 20,
+      "comparison": {
+        "change_percent": 0.6989537362747544,
+        "ci95_percent": [
+          -0.9336934164281385,
+          2.5777170814866635
+        ],
+        "statistical_direction": "uncertain",
+        "threshold_percent": 5,
+        "decision": "within_threshold"
+      },
+      "summaries": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "n": 10,
+          "mean_seconds": 3.486314233470692e-07,
+          "median_seconds": 3.449800884907885e-07,
+          "sd_seconds": 2.023756917794039e-08,
+          "variance_seconds2": 4.0955920623192285e-16,
+          "cv_percent": 5.804860899699654
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "n": 10,
+          "mean_seconds": 3.5106819570638143e-07,
+          "median_seconds": 3.393344513501254e-07,
+          "sd_seconds": 2.5683816171495397e-08,
+          "variance_seconds2": 6.596584131311684e-16,
+          "cv_percent": 7.315905139118968
+        }
+      },
+      "dependence": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "lag_one_descriptive": 0.6103699327627128,
+          "second_half_change_percent": -4.5238445749337775,
+          "n": 10
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "lag_one_descriptive": 0.6003317454061005,
+          "second_half_change_percent": -8.12970358212347,
+          "n": 10
+        }
+      },
+      "order_group_means": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "0": 3.5610677181702206e-07,
+          "1": 3.43647857700434e-07
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "0": 3.452138590894911e-07,
+          "1": 3.5984970063171686e-07
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": [
+          6.884029433463373,
+          0.2803326354958998,
+          1.8734521915658455,
+          1.2606128218954011,
+          0.6902164667777717,
+          1.7915071865047405,
+          1.6855144502941406,
+          4.123329315329778,
+          1.7255075044788235,
+          5.257094445314651
+        ],
+        "684531c13877fbdacccf02262b32e6faf889d76f": [
+          5.729000281358145,
+          2.750617751542872,
+          4.941569893441017,
+          0.5998703143539683,
+          1.4884519833114456,
+          0.5467346053355563,
+          2.751586589305518,
+          4.046890010860092,
+          3.5808183938925238,
+          1.8264902681391182
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.794290934982508,
+        1.6540410188012171
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -1.1447268438444125,
+        2.739692085201595
+      ],
+      "command_text_capture_warnings": 2,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 0.9930589771756191,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\upgrade-java-20261104T233351Z\\fullContainerRange-65535",
+      "arms": [
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+        "684531c13877fbdacccf02262b32e6faf889d76f"
+      ],
+      "pairs": 10,
+      "observations": 20,
+      "comparison": {
+        "change_percent": -97.85443145823353,
+        "ci95_percent": [
+          -97.89788332603834,
+          -97.80971645880257
+        ],
+        "statistical_direction": "faster",
+        "threshold_percent": 5,
+        "decision": "improvement"
+      },
+      "summaries": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "n": 10,
+          "mean_seconds": 3.6635711429550694e-07,
+          "median_seconds": 3.6502630032646577e-07,
+          "sd_seconds": 2.5061053060283966e-08,
+          "variance_seconds2": 6.280563804903683e-16,
+          "cv_percent": 6.8406077246447285
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "n": 10,
+          "mean_seconds": 7.860442994847793e-09,
+          "median_seconds": 7.836335245875237e-09,
+          "sd_seconds": 6.290506436118347e-10,
+          "variance_seconds2": 3.957047122284634e-19,
+          "cv_percent": 8.002737810377257
+        }
+      },
+      "dependence": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "lag_one_descriptive": 0.4183432772562437,
+          "second_half_change_percent": 8.78027398988117,
+          "n": 10
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "lag_one_descriptive": 0.19156505095060639,
+          "second_half_change_percent": 10.182751805884704,
+          "n": 10
+        }
+      },
+      "order_group_means": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "0": 3.661502452540678e-07,
+          "1": 3.6821893566845913e-07
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "0": 8.076606452117694e-09,
+          "1": 7.836424832928913e-09
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": [
+          3.3220100338063805,
+          4.49377110941905,
+          2.1337197564579604,
+          3.401861852674083,
+          2.018416330222693,
+          5.159890673571735,
+          2.093191555810196,
+          2.504387162941478,
+          1.1571433983727137,
+          6.630693705371983
+        ],
+        "684531c13877fbdacccf02262b32e6faf889d76f": [
+          0.593144382118075,
+          2.5117048496801773,
+          5.495904207087147,
+          2.3196730246025896,
+          2.2684586343519832,
+          7.598472138073408,
+          4.047327266356363,
+          1.1910933472390097,
+          4.222251403760605,
+          0.8976620561389306
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.7902894322925769,
+        1.3878810380666569
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -97.8761928267345,
+        -97.83634815347332
+      ],
+      "command_text_capture_warnings": 3,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 46.60769304422657,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-ablation-20261105T005106Z\\guard-ablation",
+      "arms": [
+        "reference",
+        "candidate"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": -99.44142367273274,
+        "ci95_percent": [
+          -99.52276577738067,
+          -99.35425557449624
+        ],
+        "statistical_direction": "faster",
+        "threshold_percent": 5,
+        "decision": "improvement"
+      },
+      "summaries": {
+        "reference": {
+          "n": 8,
+          "mean_seconds": 6.510955733033061e-07,
+          "median_seconds": 6.281230685799863e-07,
+          "sd_seconds": 1.2216301458969246e-07,
+          "variance_seconds2": 1.4923802133641413e-14,
+          "cv_percent": 18.76268547947631
+        },
+        "candidate": {
+          "n": 8,
+          "mean_seconds": 3.636865740357302e-09,
+          "median_seconds": 3.5972236314815503e-09,
+          "sd_seconds": 8.224935450840806e-10,
+          "variance_seconds2": 6.764956317049785e-19,
+          "cv_percent": 22.61544978020759
+        }
+      },
+      "dependence": {
+        "reference": {
+          "lag_one_descriptive": 0.3584680964603939,
+          "second_half_change_percent": -18.541392964388358,
+          "n": 8
+        },
+        "candidate": {
+          "lag_one_descriptive": -0.30750968414703916,
+          "second_half_change_percent": -11.548429446030362,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "reference": {
+          "0": 6.180581816227762e-07,
+          "1": 6.709180083116242e-07
+        },
+        "candidate": {
+          "0": 3.6509412526611383e-09,
+          "1": 3.6134065531842417e-09
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "reference": [
+          26.67917543054488,
+          5.329056423266485,
+          6.795114449825078,
+          1.6887741925924502,
+          8.947701827083614,
+          37.51423607343719,
+          17.55929802930221,
+          5.6218683730536725
+        ],
+        "candidate": [
+          9.248615899508403,
+          30.1542052908175,
+          25.605603155790842,
+          5.332141398957538,
+          44.78983071408778,
+          10.695408039967932,
+          5.223899229250635,
+          7.609951493098073
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.519777074594567,
+        4.224549647665139
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -99.49542712061825,
+        -99.38152689856945
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 179.02656292155,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-corpus-20261105T005256Z\\corpus-boundary",
+      "arms": [
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+        "684531c13877fbdacccf02262b32e6faf889d76f"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": -97.8665945990645,
+        "ci95_percent": [
+          -98.02225004606247,
+          -97.68242021449863
+        ],
+        "statistical_direction": "faster",
+        "threshold_percent": 5,
+        "decision": "improvement"
+      },
+      "summaries": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "n": 8,
+          "mean_seconds": 5.247649676804288e-07,
+          "median_seconds": 5.092765976340364e-07,
+          "sd_seconds": 1.0890427897610793e-07,
+          "variance_seconds2": 1.1860141979305944e-14,
+          "cv_percent": 20.752962884982143
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "n": 8,
+          "mean_seconds": 1.1195364162711661e-08,
+          "median_seconds": 1.1458684760598283e-08,
+          "sd_seconds": 2.0418473301401792e-09,
+          "variance_seconds2": 4.169140519600577e-18,
+          "cv_percent": 18.238328833830604
+        }
+      },
+      "dependence": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "lag_one_descriptive": 0.5414083542927406,
+          "second_half_change_percent": -29.012143784592602,
+          "n": 8
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "lag_one_descriptive": 0.4298928162568708,
+          "second_half_change_percent": -23.065855490934705,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "0": 5.084342713645324e-07,
+          "1": 5.345633854699666e-07
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "0": 1.1492392100666268e-08,
+          "1": 1.0700317599453983e-08
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": [
+          7.340274471696902,
+          3.0882236738350524,
+          4.922962720045899,
+          10.461738319619139,
+          16.591958458519503,
+          0.8775193980324192,
+          18.94595279867005,
+          1.1919562954071083
+        ],
+        "684531c13877fbdacccf02262b32e6faf889d76f": [
+          6.695788763312487,
+          1.2458940485510863,
+          21.785902192431575,
+          12.008698139350315,
+          6.512605652809486,
+          1.925687321218266,
+          10.739560954940465,
+          5.34275435842064
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.6065459545170352,
+        1.230039380432077
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -98.0075894164626,
+        -97.65960792083112
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 46.873416536843045,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-corpus-20261105T005256Z\\corpus-near-boundary",
+      "arms": [
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+        "684531c13877fbdacccf02262b32e6faf889d76f"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": -3.53726783173669,
+        "ci95_percent": [
+          -7.175577837952806,
+          0.12183297153622874
+        ],
+        "statistical_direction": "uncertain",
+        "threshold_percent": 5,
+        "decision": "inconclusive"
+      },
+      "summaries": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "n": 8,
+          "mean_seconds": 4.2270473655684276e-07,
+          "median_seconds": 4.141332498336126e-07,
+          "sd_seconds": 2.237722470112886e-08,
+          "variance_seconds2": 5.007401853248116e-16,
+          "cv_percent": 5.29381924683489
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "n": 8,
+          "mean_seconds": 4.0775253788739023e-07,
+          "median_seconds": 3.9993813331489114e-07,
+          "sd_seconds": 1.6935876478065697e-08,
+          "variance_seconds2": 2.86823912080299e-16,
+          "cv_percent": 4.1534692992500535
+        }
+      },
+      "dependence": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "lag_one_descriptive": 0.505972857220093,
+          "second_half_change_percent": 7.219293855649744,
+          "n": 8
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "lag_one_descriptive": 0.382892883947661,
+          "second_half_change_percent": 6.764488487751685,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+          "0": 4.1297474024990676e-07,
+          "1": 4.2854273434100436e-07
+        },
+        "684531c13877fbdacccf02262b32e6faf889d76f": {
+          "0": 4.0904131249087233e-07,
+          "1": 4.0560458021492e-07
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": [
+          3.115027384492392,
+          0.22975925901937175,
+          3.736088211356632,
+          11.123652450425878,
+          9.68471284680016,
+          21.029160970464524,
+          6.204573045112659,
+          2.5574650773308027
+        ],
+        "684531c13877fbdacccf02262b32e6faf889d76f": [
+          0.6515986158705341,
+          0.2148660154990337,
+          0.44879403455395556,
+          1.665547646379419,
+          4.3289888787329,
+          1.5452240785921434,
+          14.59685754004911,
+          11.21365975379337
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.3030699461674329,
+        2.540084087548739
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -7.190321786694776,
+        0.6486402287648518
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 1.036669786893103,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-interventions-20261105T005600Z\\contention",
+      "arms": [
+        "reference",
+        "candidate"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": 87.9484326947664,
+        "ci95_percent": [
+          66.76361138329521,
+          113.19338699999855
+        ],
+        "statistical_direction": "slower",
+        "threshold_percent": 5,
+        "decision": "regression"
+      },
+      "summaries": {
+        "reference": {
+          "n": 8,
+          "mean_seconds": 4.397198659020727e-07,
+          "median_seconds": 4.0211202485810105e-07,
+          "sd_seconds": 6.535524838952035e-08,
+          "variance_seconds2": 4.2713084920559015e-15,
+          "cv_percent": 14.862928299917932
+        },
+        "candidate": {
+          "n": 8,
+          "mean_seconds": 8.264465962104741e-07,
+          "median_seconds": 8.083021031899173e-07,
+          "sd_seconds": 6.328354782782455e-08,
+          "variance_seconds2": 4.004807425676558e-15,
+          "cv_percent": 7.657306366557762
+        }
+      },
+      "dependence": {
+        "reference": {
+          "lag_one_descriptive": 0.15889223278483963,
+          "second_half_change_percent": -10.705347591940084,
+          "n": 8
+        },
+        "candidate": {
+          "lag_one_descriptive": -0.04872078033696798,
+          "second_half_change_percent": -4.980589129537371,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "reference": {
+          "0": 4.564996498214979e-07,
+          "1": 4.296519955504175e-07
+        },
+        "candidate": {
+          "0": 8.425626838779295e-07,
+          "1": 7.995864500980485e-07
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "reference": [
+          3.4989112553494164,
+          8.852667136564845,
+          18.95277932052023,
+          0.9959578883193295,
+          2.791767763212654,
+          5.053129895421318,
+          4.137588438766756,
+          23.75195853660923
+        ],
+        "candidate": [
+          14.098213809384122,
+          0.7218606340863122,
+          4.0647459613856745,
+          5.803703350737113,
+          6.794844651243579,
+          7.795278478070449,
+          5.540962512700354,
+          0.9345355694835885
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.12613016697865945,
+        1.8347883767992943
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        68.27131491658503,
+        106.42464319686664
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 0.5320608348056982,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-interventions-20261105T191951Z\\mitigation",
+      "arms": [
+        "reference",
+        "candidate"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": -48.61490172557066,
+        "ci95_percent": [
+          -50.97510158690568,
+          -46.03131496381919
+        ],
+        "statistical_direction": "faster",
+        "threshold_percent": 5,
+        "decision": "improvement"
+      },
+      "summaries": {
+        "reference": {
+          "n": 8,
+          "mean_seconds": 7.507844522555561e-07,
+          "median_seconds": 7.401384582255812e-07,
+          "sd_seconds": 5.254160481840581e-08,
+          "variance_seconds2": 2.7606202368935244e-15,
+          "cv_percent": 6.998227608544218
+        },
+        "candidate": {
+          "n": 8,
+          "mean_seconds": 3.8579132862065356e-07,
+          "median_seconds": 3.8776162695753437e-07,
+          "sd_seconds": 3.316136712248214e-08,
+          "variance_seconds2": 1.0996762694320391e-15,
+          "cv_percent": 8.595674568696571
+        }
+      },
+      "dependence": {
+        "reference": {
+          "lag_one_descriptive": 0.1277850560047693,
+          "second_half_change_percent": -3.721944236700103,
+          "n": 8
+        },
+        "candidate": {
+          "lag_one_descriptive": 0.5521339278876269,
+          "second_half_change_percent": -7.70306826650854,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "reference": {
+          "0": 7.05431394971279e-07,
+          "1": 7.779962866261223e-07
+        },
+        "candidate": {
+          "0": 3.8767435633381844e-07,
+          "1": 3.8265294909871206e-07
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "reference": [
+          9.559381239901318,
+          15.438467231326705,
+          4.385510923504697,
+          3.498439526252268,
+          9.615635666569379,
+          8.86381987034773,
+          5.824158471697164,
+          3.0888193780818356
+        ],
+        "candidate": [
+          2.765183008440694,
+          1.5249906241643516,
+          2.187691066281488,
+          0.34650955304780395,
+          1.282395436113776,
+          2.056375211643609,
+          5.471469569054853,
+          3.063837236009328
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.692779616078406,
+        1.8864285101638054
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        -51.07025501822342,
+        -46.31478645177465
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [
+        {
+          "round": 1,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 59,
+            "nr_throttled": 1,
+            "throttled_time": 43400
+          }
+        },
+        {
+          "round": 1,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 39,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 2,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 33,
+            "nr_throttled": 10,
+            "throttled_time": 263700
+          }
+        },
+        {
+          "round": 2,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 42,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 3,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 38,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 3,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 32,
+            "nr_throttled": 1,
+            "throttled_time": 19900
+          }
+        },
+        {
+          "round": 4,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 38,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 4,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 32,
+            "nr_throttled": 7,
+            "throttled_time": 197900
+          }
+        },
+        {
+          "round": 5,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 34,
+            "nr_throttled": 2,
+            "throttled_time": 3144700
+          }
+        },
+        {
+          "round": 5,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 37,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 6,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 32,
+            "nr_throttled": 3,
+            "throttled_time": 118200
+          }
+        },
+        {
+          "round": 6,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 39,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 7,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 32,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 7,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 42,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 8,
+          "arm": "reference",
+          "delta": {
+            "nr_periods": 37,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        },
+        {
+          "round": 8,
+          "arm": "candidate",
+          "delta": {
+            "nr_periods": 35,
+            "nr_throttled": 0,
+            "throttled_time": 0
+          }
+        }
+      ],
+      "derived_rate_ratio": 1.9460894959456132,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    },
+    {
+      "case": "results\\resume-interventions-20261105T191951Z\\runtime",
+      "arms": [
+        "reference",
+        "candidate"
+      ],
+      "pairs": 8,
+      "observations": 16,
+      "comparison": {
+        "change_percent": 880.9227844202313,
+        "ci95_percent": [
+          853.7741706686487,
+          919.1024073150118
+        ],
+        "statistical_direction": "slower",
+        "threshold_percent": 5,
+        "decision": "regression"
+      },
+      "summaries": {
+        "reference": {
+          "n": 8,
+          "mean_seconds": 3.5369791924967066e-07,
+          "median_seconds": 3.5206257983752027e-07,
+          "sd_seconds": 5.264427857241929e-09,
+          "variance_seconds2": 2.771420066410485e-17,
+          "cv_percent": 1.4883966149446979
+        },
+        "candidate": {
+          "n": 8,
+          "mean_seconds": 3.4695034779402906e-06,
+          "median_seconds": 3.4186409290493103e-06,
+          "sd_seconds": 1.5200349483651053e-07,
+          "variance_seconds2": 2.3105062442513085e-14,
+          "cv_percent": 4.381131069704218
+        }
+      },
+      "dependence": {
+        "reference": {
+          "lag_one_descriptive": -0.5854945885806511,
+          "second_half_change_percent": -0.7617248061784321,
+          "n": 8
+        },
+        "candidate": {
+          "lag_one_descriptive": -0.0933920999975335,
+          "second_half_change_percent": 4.80340322022752,
+          "n": 8
+        }
+      },
+      "order_group_means": {
+        "reference": {
+          "0": 3.523416487307099e-07,
+          "1": 3.545116815610471e-07
+        },
+        "candidate": {
+          "0": 3.426761721143645e-06,
+          "1": 3.540739739268034e-06
+        }
+      },
+      "within_fork_iteration_cv_percent": {
+        "reference": [
+          2.0563376310080788,
+          2.0101798090345175,
+          2.0520136159735136,
+          1.7391232625369777,
+          2.797279072907542,
+          0.5334707265725143,
+          2.299530207797453,
+          0.8864449608221956
+        ],
+        "candidate": [
+          1.7222544039936063,
+          2.8196375087641017,
+          1.9252381829770473,
+          1.4810397440102685,
+          5.171460864373991,
+          2.565516054116216,
+          2.408978486232215,
+          9.880225092156397
+        ]
+      },
+      "exploratory_cv_ratio_ci95": [
+        0.6229720651252592,
+        5.592533334820855
+      ],
+      "circular_length2_block_bootstrap_sensitivity_ci95_percent": [
+        859.6141047076173,
+        906.1661834858079
+      ],
+      "command_text_capture_warnings": 0,
+      "cgroup_quota_diagnostics": [],
+      "derived_rate_ratio": 0.10194482337272288,
+      "limitations": "Small fork-pair count; shared-host/WSL drift and autocorrelation possible. Iterations are not independent observations. Derived rate is not a separate throughput experiment."
+    }
+  ],
+  "upstream_tests": {
+    "test-results-2dfd0fb994468c8d416dea3d217dc40ca7d6d145": {
+      "tests": 193,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "test-results-684531c13877fbdacccf02262b32e6faf889d76f": {
+      "tests": 195,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "diagnostics": {
+    "rank-2dfd0fb99446-65534-events": {
+      "event_counts": {
+        "jdk.ExecutionSample": 288,
+        "jdk.CPULoad": 3,
+        "jdk.GarbageCollection": 1
+      },
+      "rank_stack_source_lines": {
+        "1160": 283
+      },
+      "rank_compilation_levels": {},
+      "rank_print_compilation": [
+        "506 1499 %     3       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)",
+        "506 1500       3       org.roaringbitmap.BitmapContainer::rank (70 bytes)",
+        "507 1501 %     4       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)",
+        "510 1499 %     3       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)   made not entrant",
+        "511 1502       4       org.roaringbitmap.BitmapContainer::rank (70 bytes)",
+        "513 1500       3       org.roaringbitmap.BitmapContainer::rank (70 bytes)   made not entrant"
+      ],
+      "top_stack_frames": [
+        [
+          "perflens/external/RankDiagnostic.main",
+          287
+        ],
+        [
+          "org/roaringbitmap/BitmapContainer.rank",
+          283
+        ],
+        [
+          "java/lang/Thread.run",
+          1
+        ]
+      ],
+      "limit": "Same diagnostic wall budget, different operation counts/JIT inlining; raw sample counts are not speedups or causal proof"
+    },
+    "rank-2dfd0fb99446-65535-events": {
+      "event_counts": {
+        "jdk.ExecutionSample": 282,
+        "jdk.CPULoad": 3,
+        "jdk.GarbageCollection": 1
+      },
+      "rank_stack_source_lines": {
+        "1160": 276
+      },
+      "rank_compilation_levels": {},
+      "rank_print_compilation": [
+        "608 1467 %     3       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)",
+        "609 1468       3       org.roaringbitmap.BitmapContainer::rank (70 bytes)",
+        "609 1469 %     4       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)",
+        "612 1467 %     3       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)   made not entrant",
+        "612 1470       4       org.roaringbitmap.BitmapContainer::rank (70 bytes)",
+        "616 1468       3       org.roaringbitmap.BitmapContainer::rank (70 bytes)   made not entrant"
+      ],
+      "top_stack_frames": [
+        [
+          "perflens/external/RankDiagnostic.main",
+          282
+        ],
+        [
+          "org/roaringbitmap/BitmapContainer.rank",
+          276
+        ]
+      ],
+      "limit": "Same diagnostic wall budget, different operation counts/JIT inlining; raw sample counts are not speedups or causal proof"
+    },
+    "rank-684531c13877-65534-events": {
+      "event_counts": {
+        "jdk.ExecutionSample": 283,
+        "jdk.CPULoad": 3,
+        "jdk.GarbageCollection": 1
+      },
+      "rank_stack_source_lines": {
+        "1168": 282
+      },
+      "rank_compilation_levels": {},
+      "rank_print_compilation": [
+        "551 1445 %     3       org.roaringbitmap.BitmapContainer::rank @ 35 (93 bytes)",
+        "552 1446       3       org.roaringbitmap.BitmapContainer::rank (93 bytes)",
+        "555 1447 %     4       org.roaringbitmap.BitmapContainer::rank @ 35 (93 bytes)",
+        "558 1445 %     3       org.roaringbitmap.BitmapContainer::rank @ 35 (93 bytes)   made not entrant",
+        "558 1448       4       org.roaringbitmap.BitmapContainer::rank (93 bytes)",
+        "561 1446       3       org.roaringbitmap.BitmapContainer::rank (93 bytes)   made not entrant"
+      ],
+      "top_stack_frames": [
+        [
+          "perflens/external/RankDiagnostic.main",
+          283
+        ],
+        [
+          "org/roaringbitmap/BitmapContainer.rank",
+          282
+        ]
+      ],
+      "limit": "Same diagnostic wall budget, different operation counts/JIT inlining; raw sample counts are not speedups or causal proof"
+    },
+    "rank-684531c13877-65535-events": {
+      "event_counts": {
+        "jdk.ExecutionSample": 107,
+        "jdk.CPULoad": 3,
+        "jdk.GarbageCollection": 1
+      },
+      "rank_stack_source_lines": {
+        "1161": 72
+      },
+      "rank_compilation_levels": {},
+      "rank_print_compilation": [
+        "559 1485       3       org.roaringbitmap.BitmapContainer::rank (93 bytes)",
+        "560 1487       4       org.roaringbitmap.BitmapContainer::rank (93 bytes)",
+        "560 1485       3       org.roaringbitmap.BitmapContainer::rank (93 bytes)   made not entrant"
+      ],
+      "top_stack_frames": [
+        [
+          "perflens/external/RankDiagnostic.main",
+          107
+        ],
+        [
+          "org/roaringbitmap/BitmapContainer.rank",
+          72
+        ]
+      ],
+      "limit": "Same diagnostic wall budget, different operation counts/JIT inlining; raw sample counts are not speedups or causal proof"
+    }
+  },
+  "runtime_diagnostics": {
+    "rank-2dfd0fb99446-65534-tier1-events": {
+      "event_counts": {
+        "jdk.ExecutionSample": 114,
+        "jdk.CPULoad": 3,
+        "jdk.GarbageCollection": 1
+      },
+      "rank_stack_source_lines": {
+        "1161": 28,
+        "1160": 41,
+        "1164": 43
+      },
+      "rank_compilation_levels": {},
+      "rank_print_compilation": [
+        "443 1446 %     1       org.roaringbitmap.BitmapContainer::rank @ 12 (70 bytes)",
+        "443 1447       1       org.roaringbitmap.BitmapContainer::rank (70 bytes)"
+      ],
+      "top_stack_frames": [
+        [
+          "perflens/external/RankDiagnostic.main",
+          113
+        ],
+        [
+          "org/roaringbitmap/BitmapContainer.rank",
+          112
+        ],
+        [
+          "jdk/internal/util/ReferencedKeyMap.getNoCheckStale",
+          1
+        ],
+        [
+          "jdk/internal/util/ReferencedKeyMap.get",
+          1
+        ],
+        [
+          "jdk/internal/util/ReferencedKeySet.get",
+          1
+        ],
+        [
+          "java/lang/invoke/MethodType.makeImpl",
+          1
+        ],
+        [
+          "java/lang/invoke/MethodType.methodType",
+          1
+        ]
+      ],
+      "limit": "Same diagnostic wall budget, different operation counts/JIT inlining; raw sample counts are not speedups or causal proof"
+    }
+  },
+  "incomplete_attempts_not_used_for_inference": [
+    "results\\resume-ablation-20261105T004520Z\\guard-ablation",
+    "results\\resume-interventions-20261105T005600Z\\mitigation"
+  ]
+}

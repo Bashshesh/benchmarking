@@ -1,0 +1,63 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "perflens.external.RankBenchmark.fullContainerRange",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Xms512m",
+            "-Xmx512m",
+            "-Djava.io.tmpdir=C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/.tmp/final845/final-roaring-20261105T225902Z/native-scratch-guarded",
+            "-Djava.security.manager=perflens.finalstudy.LoopbackGuard",
+            "-Djava.security.policy==file:///C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/results/final-roaring-20261105T225902Z/windows-native/benchmark.policy",
+            "-Djmh.link.address=127.0.0.1"
+        ],
+        "jdkVersion" : "21.0.8",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "21.0.8+12-LTS-250",
+        "warmupIterations" : 3,
+        "warmupTime" : "200 ms",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 3,
+        "measurementTime" : "300 ms",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "containers" : "16",
+            "limit" : "65535"
+        },
+        "primaryMetric" : {
+            "score" : 12.153872452132342,
+            "scoreError" : 3.26521931693026,
+            "scoreConfidence" : [
+                8.888653135202082,
+                15.419091769062602
+            ],
+            "scorePercentiles" : {
+                "0.0" : 11.979365994878675,
+                "50.0" : 12.145242234049707,
+                "90.0" : 12.337009127468649,
+                "95.0" : 12.337009127468649,
+                "99.0" : 12.337009127468649,
+                "99.9" : 12.337009127468649,
+                "99.99" : 12.337009127468649,
+                "99.999" : 12.337009127468649,
+                "99.9999" : 12.337009127468649,
+                "100.0" : 12.337009127468649
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    11.979365994878675,
+                    12.337009127468649,
+                    12.145242234049707
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,0 +1,21 @@
+{
+  "evidence_class": "environment/preflight failure, not a benchmark result",
+  "date": "2026-11-04",
+  "docker": {
+    "client": "28.0.4",
+    "context": "desktop-linux",
+    "engine_status": "unavailable",
+    "preflight_error": "dockerDesktopLinuxEngine named pipe does not exist",
+    "backend_error": "running OTel manager: removing stale socket: remove <HOME>\\AppData\\Local\\Docker\\run\\userAnalyticsOtlpHttp.sock: The file cannot be accessed by the system.",
+    "recovery_attempt": "Hidden Desktop start and read-only engine/WSL probes; reversible stale-socket rename attempted only with no backend, rejected by Windows. No socket was renamed or deleted.",
+    "user_confirmation": "Docker Desktop is unavailable; continue unaffected work and do not execute untrusted third-party repository code directly on Windows. Prepare complete commands and mark blocked experiments not executed."
+  },
+  "repository_gates": {
+    "RoaringBitmap/RoaringBitmap": {"research": "performed", "build": "not executed", "correctness": "not executed", "benchmark_compatibility": "not executed", "real_timing": "not executed"},
+    "ben-manes/caffeine": {"research": "performed", "build": "not executed", "benchmark_compatibility": "not executed"},
+    "apache/fory": {"research": "performed", "build": "not executed", "benchmark_compatibility": "not executed"}
+  },
+  "other_unexecuted": ["Linux/container subprocess cleanup", "real-repository JFR or hardware-counter diagnosis", "3-5 revision compatibility screen"],
+  "other_limitations": ["No installed native GCC/Clang or GraalVM", "No trustworthy thermal/hardware-counter measurement", "Dataset-specific real-roaring corpus permissions unresolved; no real corpus used"],
+  "continuation": "Only reviewed project-owned native Python/Java workloads, unit tests, synthetic analyses and diagnostics execute on this host."
+}

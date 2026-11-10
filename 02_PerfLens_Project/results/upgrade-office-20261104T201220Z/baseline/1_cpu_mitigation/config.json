@@ -1,0 +1,45 @@
+{
+  "name": "cpu_mitigation",
+  "session": 1,
+  "seed": 1730,
+  "rounds": 20,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "same_cpu_load",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "baseline",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ],
+      "cpu": 2,
+      "load": true
+    },
+    {
+      "name": "separate_cpu_load",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "baseline",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ],
+      "cpu": 4,
+      "load": true,
+      "load_cpu": 2
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "shas": [
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+    "684531c13877fbdacccf02262b32e6faf889d76f"
+  ],
+  "image": "sha256:de18ceeaafec940e4e89c36146b52c266f3dc6daef790489e43a9aa8d655cc56",
+  "rounds": 10,
+  "lazy": {
+    "mode": "ss",
+    "shots_per_fork": 20,
+    "warmup_shots": 30,
+    "batch_rank_calls": 256,
+    "fixtures": 16,
+    "untimed_batch_preheat": 16000,
+    "fresh_objects_per_shot": true,
+    "seed": 84590
+  },
+  "native": {
+    "mode": "avgt",
+    "settings": "3x200ms warmup, 3x300ms measurement, 512m heap",
+    "seed": 84591,
+    "jmh": "1.37"
+  },
+  "statistics": "paired bootstrap 5000 resamples, +/-5% practical threshold, fork means"
+}

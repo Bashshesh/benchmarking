@@ -1,0 +1,10 @@
+test_invalid_timings (test_analysis.AnalysisTests.test_invalid_timings) ... ok
+test_known_effect_and_shared_drift (test_analysis.AnalysisTests.test_known_effect_and_shared_drift) ... ok
+test_partial_and_failed_runs_are_rejected (test_analysis.AnalysisTests.test_partial_and_failed_runs_are_rejected) ... ok
+test_statistical_and_practical_are_different (test_analysis.AnalysisTests.test_statistical_and_practical_are_different) ... ok
+test_uncertainty_and_reproducibility (test_analysis.AnalysisTests.test_uncertainty_and_reproducibility) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.429s
+
+OK

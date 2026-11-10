@@ -1,0 +1,15 @@
+{
+  "harness_snapshot": {
+    "Dockerfile": "0797ac489d3d23c02c669a27cc9f4e2eed5799905427059adc4dde6188721e37",
+    "build-roaring.sh": "e10ae1853c1cae61bae560565c1b13a59379ab54fe20b6e2fedf63df75b91a6e",
+    "dependencies-pom.xml": "dfa2ce77e9b69de37e8b49825ff69f7b9b01ba442fbe587adedfde6a1ccfd6ee",
+    "src/perflens/external/RankBenchmark.java": "49b6844c37f229da2323908212191c2f3f4de9ef1f7feaecf1edfdfecc17c833",
+    "src/perflens/external/CorrectnessMain.java": "96f6b04ce137d22c561944ddb034f3fbe92248f5c872f716cb1f010256f74e45"
+  },
+  "note": "Harness bytes copied after execution and verified against preparation hashes; class hashes captured after execution from retained artifacts",
+  "library_BitmapContainer_class_sha256": {
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145": "1d55fe2b9972d794d7adce90d52b207f9d3369f5852827e1cc4d62bff694bcc4",
+    "684531c13877fbdacccf02262b32e6faf889d76f": "f3630d79d7f20f7af5aa44dadaee134d7a35fefb048d20317bd02dcf30802785"
+  },
+  "artifact_image": "sha256:de18ceeaafec940e4e89c36146b52c266f3dc6daef790489e43a9aa8d655cc56"
+}

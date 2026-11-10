@@ -1,0 +1,60 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "windows_version": [
+    "11",
+    "10.0.26200",
+    "SP0",
+    "Multiprocessor Free"
+  ],
+  "processor": "Intel(R) Core(TM) Ultra 7 155H",
+  "physical_cores": 16,
+  "logical_processors": 22,
+  "memory_bytes": 16505950208,
+  "process_allowed_cpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "host_cpu_utilization_percent": 25.7,
+  "java": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+  "java_sha256": "f3d26e4f17c45da613a4676b5b0c6a387bf36d990be0835d60a177234b2f28ba",
+  "power_scheme": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "power_scheme_status": 0,
+  "environment_keys": [
+    "ComSpec",
+    "PATH",
+    "SystemRoot",
+    "TEMP",
+    "TMP",
+    "WINDIR"
+  ],
+  "flags": [
+    "-Xms512m",
+    "-Xmx512m",
+    "-Djava.io.tmpdir=C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/.tmp/final845/final-roaring-20261105T225902Z/native-scratch",
+    "-Djava.security.manager",
+    "-Djava.security.policy==file:///C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/results/final-roaring-20261105T225902Z/windows-native/benchmark.policy"
+  ],
+  "policy_sha256": "51fe17047049997061cd87013db38c9057a56eebf9d60cb1585bb583ba2cd3bb",
+  "scope": "Native Windows on same physical machine as Docker/WSL, separate dataset",
+  "isolation": "Default host tool sandbox, Java 21 exclusive code-source policy, Windows job, minimal environment. Trusted JMH and frozen harness need local fork IPC."
+}

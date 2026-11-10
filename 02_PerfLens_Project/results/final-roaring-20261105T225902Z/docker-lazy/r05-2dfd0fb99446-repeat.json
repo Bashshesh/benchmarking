@@ -1,0 +1,76 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "perflens.finalstudy.LazyRank.rankBatch",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/opt/java/openjdk/bin/java",
+        "jvmArgs" : [
+            "-Xms512m",
+            "-Xmx512m"
+        ],
+        "jdkVersion" : "21.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.7+6-LTS",
+        "warmupIterations" : 30,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 20,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "repairs" : "false",
+            "scenario" : "repeat"
+        },
+        "primaryMetric" : {
+            "score" : 628.565234375,
+            "scoreError" : 101.12679579458137,
+            "scoreConfidence" : [
+                527.4384385804187,
+                729.6920301695814
+            ],
+            "scorePercentiles" : {
+                "0.0" : 523.06640625,
+                "50.0" : 604.69921875,
+                "90.0" : 834.05625,
+                "95.0" : 861.91796875,
+                "99.0" : 863.3046875,
+                "99.9" : 863.3046875,
+                "99.99" : 863.3046875,
+                "99.999" : 863.3046875,
+                "99.9999" : 863.3046875,
+                "100.0" : 863.3046875
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    533.13671875,
+                    835.5703125,
+                    820.4296875,
+                    863.3046875,
+                    601.4921875,
+                    646.56640625,
+                    607.90625,
+                    736.4140625,
+                    523.69921875,
+                    527.7265625,
+                    523.4765625,
+                    524.39453125,
+                    628.671875,
+                    732.76171875,
+                    620.1875,
+                    528.2265625,
+                    546.3359375,
+                    720.6875,
+                    523.06640625,
+                    527.25
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

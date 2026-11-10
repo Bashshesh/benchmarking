@@ -1,0 +1,35 @@
+{
+  "commits": [
+    "87b57851e9e55b91d8471960fef9b4ca4c373837",
+    "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985"
+  ],
+  "summaries": {
+    "87b57851e9e55b91d8471960fef9b4ca4c373837": {
+      "n": 20,
+      "mean_seconds": 0.0004664854998700321,
+      "median_seconds": 0.00046029149903915824,
+      "sd_seconds": 2.2405111618251507e-05,
+      "variance_seconds2": 5.019890266263086e-10,
+      "cv_percent": 4.802959925762711
+    },
+    "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985": {
+      "n": 20,
+      "mean_seconds": 0.0004690974002005532,
+      "median_seconds": 0.00046046274947002534,
+      "sd_seconds": 2.821937573922478e-05,
+      "variance_seconds2": 7.963331671115482e-10,
+      "cv_percent": 6.015675151292705
+    }
+  },
+  "comparison": {
+    "change_percent": 0.5599102932993372,
+    "ci95_percent": [
+      -2.714843512454901,
+      4.246541537700477
+    ],
+    "statistical_direction": "uncertain",
+    "threshold_percent": 5,
+    "decision": "within_threshold"
+  },
+  "method": "Paired percentile bootstrap of relative mean change; 5000 resamples; 95% CI"
+}

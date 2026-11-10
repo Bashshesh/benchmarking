@@ -1,0 +1,15 @@
+{
+  "comparison": {
+    "change_percent": 880.9227844202313,
+    "ci95_percent": [
+      853.7741706686487,
+      919.1024073150118
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "raw_sha256": "da19cb6205c96108ddf4557ac4f9bf0cf72d620480abedf474635f0462e5059a",
+  "throughput": "reciprocal of average ns/op is derived rate, not independent throughput benchmark",
+  "limitation": "8 fork pairs only, virtual CPU quota and WSL scheduling; exploratory fixed-plan extension"
+}

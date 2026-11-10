@@ -1,0 +1,35 @@
+{
+  "name": "algorithm_resource_tradeoff",
+  "arms": [
+    {
+      "name": "linear",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "baseline",
+        "1000",
+        "20"
+      ]
+    },
+    {
+      "name": "binary",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "optimized",
+        "1000",
+        "20"
+      ]
+    }
+  ],
+  "seed": 430,
+  "rounds": 8,
+  "threshold": 5,
+  "timeout": 120,
+  "phase": "confirmatory",
+  "target": ">5% internal-time improvement against reference, with observed CPU ratio <=1.10 for runtime recommendation"
+}

@@ -1,0 +1,31 @@
+{
+  "comparison": {
+    "change_percent": -97.60186044764576,
+    "ci95_percent": [
+      -97.6343648601071,
+      -97.55917721275024
+    ],
+    "statistical_direction": "faster",
+    "threshold_percent": 5,
+    "decision": "improvement"
+  },
+  "summaries": {
+    "linear_search": {
+      "n": 20,
+      "mean_seconds": 0.007667402,
+      "median_seconds": 0.007628869999999999,
+      "sd_seconds": 0.00011864456123893301,
+      "variance_seconds2": 1.4076531911578926e-08,
+      "cv_percent": 1.5473893404693402
+    },
+    "binary_search": {
+      "n": 20,
+      "mean_seconds": 0.000183875,
+      "median_seconds": 0.00018299,
+      "sd_seconds": 6.025090958038027e-06,
+      "variance_seconds2": 3.630172105263159e-11,
+      "cv_percent": 3.276731996213747
+    }
+  },
+  "target": null
+}

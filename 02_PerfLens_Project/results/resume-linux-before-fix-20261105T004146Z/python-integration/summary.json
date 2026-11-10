@@ -1,0 +1,31 @@
+{
+  "comparison": {
+    "change_percent": 0.0,
+    "ci95_percent": [
+      0.0,
+      0.0
+    ],
+    "statistical_direction": "uncertain",
+    "threshold_percent": 5,
+    "decision": "within_threshold"
+  },
+  "summaries": {
+    "A": {
+      "n": 5,
+      "mean_seconds": 0.01,
+      "median_seconds": 0.01,
+      "sd_seconds": 0.0,
+      "variance_seconds2": 0.0,
+      "cv_percent": 0.0
+    },
+    "B": {
+      "n": 5,
+      "mean_seconds": 0.01,
+      "median_seconds": 0.01,
+      "sd_seconds": 0.0,
+      "variance_seconds2": 0.0,
+      "cv_percent": 0.0
+    }
+  },
+  "target": null
+}

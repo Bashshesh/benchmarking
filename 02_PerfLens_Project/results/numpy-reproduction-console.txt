@@ -1,0 +1,154 @@
+Requirement already satisfied: numpy==1.26.4 in c:\users\admin\documents\codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\perflens\.numpy126\lib\site-packages (1.26.4)
+Requirement already satisfied: numpy==2.0.0 in c:\users\admin\documents\codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\perflens\.numpy200\lib\site-packages (2.0.0)
+Experiment: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\numpy-experiment\experiments\20261029_165417_724466Z
+  Round  1/20 | numpy-2.0.0 | 2.059 ms
+  Round  1/20 | numpy-1.26.4 | 0.641 ms
+  Round  2/20 | numpy-2.0.0 | 2.037 ms
+  Round  2/20 | numpy-1.26.4 | 0.653 ms
+  Round  3/20 | numpy-1.26.4 | 0.601 ms
+  Round  3/20 | numpy-2.0.0 | 2.025 ms
+  Round  4/20 | numpy-2.0.0 | 1.998 ms
+  Round  4/20 | numpy-1.26.4 | 0.592 ms
+  Round  5/20 | numpy-2.0.0 | 2.073 ms
+  Round  5/20 | numpy-1.26.4 | 0.599 ms
+  Round  6/20 | numpy-2.0.0 | 1.888 ms
+  Round  6/20 | numpy-1.26.4 | 0.593 ms
+  Round  7/20 | numpy-2.0.0 | 2.020 ms
+  Round  7/20 | numpy-1.26.4 | 0.602 ms
+  Round  8/20 | numpy-2.0.0 | 2.011 ms
+  Round  8/20 | numpy-1.26.4 | 0.609 ms
+  Round  9/20 | numpy-1.26.4 | 0.586 ms
+  Round  9/20 | numpy-2.0.0 | 2.006 ms
+  Round 10/20 | numpy-2.0.0 | 1.996 ms
+  Round 10/20 | numpy-1.26.4 | 0.587 ms
+  Round 11/20 | numpy-2.0.0 | 2.003 ms
+  Round 11/20 | numpy-1.26.4 | 0.607 ms
+  Round 12/20 | numpy-2.0.0 | 2.020 ms
+  Round 12/20 | numpy-1.26.4 | 0.626 ms
+  Round 13/20 | numpy-2.0.0 | 2.000 ms
+  Round 13/20 | numpy-1.26.4 | 0.597 ms
+  Round 14/20 | numpy-2.0.0 | 2.028 ms
+  Round 14/20 | numpy-1.26.4 | 0.591 ms
+  Round 15/20 | numpy-2.0.0 | 2.029 ms
+  Round 15/20 | numpy-1.26.4 | 0.590 ms
+  Round 16/20 | numpy-2.0.0 | 2.032 ms
+  Round 16/20 | numpy-1.26.4 | 0.624 ms
+  Round 17/20 | numpy-1.26.4 | 0.603 ms
+  Round 17/20 | numpy-2.0.0 | 2.002 ms
+  Round 18/20 | numpy-2.0.0 | 1.885 ms
+  Round 18/20 | numpy-1.26.4 | 0.598 ms
+  Round 19/20 | numpy-1.26.4 | 0.604 ms
+  Round 19/20 | numpy-2.0.0 | 2.015 ms
+  Round 20/20 | numpy-1.26.4 | 0.594 ms
+  Round 20/20 | numpy-2.0.0 | 2.046 ms
+# NumPy argsort benchmark report
+
+| NumPy version | N | Mean (ms) | Median (ms) | SD (ms) | CV (%) |
+|---|---:|---:|---:|---:|---:|
+| numpy-1.26.4 | 20 | 0.6049 | 0.6002 | 0.0179 | 2.96 |
+| numpy-2.0.0 | 20 | 2.0085 | 2.0174 | 0.0464 | 2.31 |
+
+Relative mean change: +232.03%
+95% confidence interval of change: [+227.35%, +236.25%]
+Statistical direction (CI vs zero): slower
+Practical threshold: 5%
+Decision: **regression**
+
+Positive changes mean slower execution. Regression requires the entire CI above the threshold.
+Within-threshold describes this interval, not proof of equal performance.
+The percentile bootstrap is approximate. Rounds may remain correlated; no correction for multiple experiments.
+Confirm flagged changes in a separate preplanned run on a quiet machine.
+One observation is a batch average from one fresh process, not independent loop timings.
+CV is SD / mean; it describes variation, not statistical significance.
+Configuration: repeats=20, loops=100, warmups=5, sorted array size=100000
+Measured Python: 3.12.14
+Platform: Windows-11-10.0.26200-SP0
+
+Saved: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\numpy-experiment\experiments\20261029_165417_724466Z\report.md
+Experiment: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\numpy-experiment\experiments\20261029_165435_794020Z
+  Round  1/20 | numpy-1.26.4-control-B | 0.595 ms
+  Round  1/20 | numpy-1.26.4-control-A | 0.595 ms
+  Round  2/20 | numpy-1.26.4-control-B | 0.595 ms
+  Round  2/20 | numpy-1.26.4-control-A | 0.582 ms
+  Round  3/20 | numpy-1.26.4-control-A | 0.597 ms
+  Round  3/20 | numpy-1.26.4-control-B | 0.591 ms
+  Round  4/20 | numpy-1.26.4-control-B | 0.593 ms
+  Round  4/20 | numpy-1.26.4-control-A | 0.635 ms
+  Round  5/20 | numpy-1.26.4-control-B | 0.608 ms
+  Round  5/20 | numpy-1.26.4-control-A | 0.602 ms
+  Round  6/20 | numpy-1.26.4-control-B | 0.581 ms
+  Round  6/20 | numpy-1.26.4-control-A | 0.592 ms
+  Round  7/20 | numpy-1.26.4-control-B | 0.595 ms
+  Round  7/20 | numpy-1.26.4-control-A | 0.629 ms
+  Round  8/20 | numpy-1.26.4-control-B | 0.590 ms
+  Round  8/20 | numpy-1.26.4-control-A | 0.608 ms
+  Round  9/20 | numpy-1.26.4-control-A | 0.601 ms
+  Round  9/20 | numpy-1.26.4-control-B | 0.589 ms
+  Round 10/20 | numpy-1.26.4-control-B | 0.627 ms
+  Round 10/20 | numpy-1.26.4-control-A | 0.590 ms
+  Round 11/20 | numpy-1.26.4-control-B | 0.612 ms
+  Round 11/20 | numpy-1.26.4-control-A | 0.627 ms
+  Round 12/20 | numpy-1.26.4-control-B | 0.594 ms
+  Round 12/20 | numpy-1.26.4-control-A | 0.589 ms
+  Round 13/20 | numpy-1.26.4-control-B | 0.590 ms
+  Round 13/20 | numpy-1.26.4-control-A | 0.627 ms
+  Round 14/20 | numpy-1.26.4-control-B | 0.609 ms
+  Round 14/20 | numpy-1.26.4-control-A | 0.612 ms
+  Round 15/20 | numpy-1.26.4-control-B | 0.595 ms
+  Round 15/20 | numpy-1.26.4-control-A | 0.591 ms
+  Round 16/20 | numpy-1.26.4-control-B | 0.589 ms
+  Round 16/20 | numpy-1.26.4-control-A | 0.588 ms
+  Round 17/20 | numpy-1.26.4-control-A | 0.597 ms
+  Round 17/20 | numpy-1.26.4-control-B | 0.591 ms
+  Round 18/20 | numpy-1.26.4-control-B | 0.590 ms
+  Round 18/20 | numpy-1.26.4-control-A | 0.679 ms
+  Round 19/20 | numpy-1.26.4-control-A | 0.612 ms
+  Round 19/20 | numpy-1.26.4-control-B | 0.588 ms
+  Round 20/20 | numpy-1.26.4-control-A | 0.593 ms
+  Round 20/20 | numpy-1.26.4-control-B | 0.595 ms
+# NumPy argsort benchmark report
+
+| NumPy version | N | Mean (ms) | Median (ms) | SD (ms) | CV (%) |
+|---|---:|---:|---:|---:|---:|
+| numpy-1.26.4-control-A | 20 | 0.6073 | 0.5994 | 0.0228 | 3.75 |
+| numpy-1.26.4-control-B | 20 | 0.5958 | 0.5936 | 0.0104 | 1.75 |
+
+Relative mean change: -1.88%
+95% confidence interval of change: [-3.72%, -0.21%]
+Statistical direction (CI vs zero): faster
+Practical threshold: 5%
+Decision: **within_threshold**
+
+Positive changes mean slower execution. Regression requires the entire CI above the threshold.
+Within-threshold describes this interval, not proof of equal performance.
+The percentile bootstrap is approximate. Rounds may remain correlated; no correction for multiple experiments.
+Confirm flagged changes in a separate preplanned run on a quiet machine.
+One observation is a batch average from one fresh process, not independent loop timings.
+CV is SD / mean; it describes variation, not statistical significance.
+Configuration: repeats=20, loops=100, warmups=5, sorted array size=100000
+Measured Python: 3.12.14
+Platform: Windows-11-10.0.26200-SP0
+
+Saved: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\numpy-experiment\experiments\20261029_165435_794020Z\report.md
+numpy_fixed_int64: pair 1/20
+numpy_fixed_int64: pair 2/20
+numpy_fixed_int64: pair 3/20
+numpy_fixed_int64: pair 4/20
+numpy_fixed_int64: pair 5/20
+numpy_fixed_int64: pair 6/20
+numpy_fixed_int64: pair 7/20
+numpy_fixed_int64: pair 8/20
+numpy_fixed_int64: pair 9/20
+numpy_fixed_int64: pair 10/20
+numpy_fixed_int64: pair 11/20
+numpy_fixed_int64: pair 12/20
+numpy_fixed_int64: pair 13/20
+numpy_fixed_int64: pair 14/20
+numpy_fixed_int64: pair 15/20
+numpy_fixed_int64: pair 16/20
+numpy_fixed_int64: pair 17/20
+numpy_fixed_int64: pair 18/20
+numpy_fixed_int64: pair 19/20
+numpy_fixed_int64: pair 20/20
+C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\results\20261029T165451Z_numpy-diagnostic\comparison {'change_percent': 226.05448462828602, 'ci95_percent': [223.15656282007436, 228.62561604345606], 'statistical_direction': 'slower', 'threshold_percent': 5, 'decision': 'regression'}
+C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\results\20261029T165451Z_numpy-diagnostic

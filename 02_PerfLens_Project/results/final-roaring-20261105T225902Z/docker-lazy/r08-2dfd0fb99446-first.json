@@ -1,0 +1,76 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "perflens.finalstudy.LazyRank.rankBatch",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/opt/java/openjdk/bin/java",
+        "jvmArgs" : [
+            "-Xms512m",
+            "-Xmx512m"
+        ],
+        "jdkVersion" : "21.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.7+6-LTS",
+        "warmupIterations" : 30,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 20,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "repairs" : "false",
+            "scenario" : "first"
+        },
+        "primaryMetric" : {
+            "score" : 604.35,
+            "scoreError" : 124.74574139797325,
+            "scoreConfidence" : [
+                479.6042586020268,
+                729.0957413979733
+            ],
+            "scorePercentiles" : {
+                "0.0" : 520.4453125,
+                "50.0" : 543.775390625,
+                "90.0" : 772.4101562500001,
+                "95.0" : 1113.1851562499996,
+                "99.0" : 1130.765625,
+                "99.9" : 1130.765625,
+                "99.99" : 1130.765625,
+                "99.999" : 1130.765625,
+                "99.9999" : 1130.765625,
+                "100.0" : 1130.765625
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    524.265625,
+                    656.58984375,
+                    663.50390625,
+                    531.63671875,
+                    1130.765625,
+                    522.86328125,
+                    526.40625,
+                    779.15625,
+                    531.12109375,
+                    525.80859375,
+                    523.328125,
+                    528.71875,
+                    603.1796875,
+                    520.4453125,
+                    549.7890625,
+                    711.6953125,
+                    570.21484375,
+                    551.39453125,
+                    537.76171875,
+                    598.35546875
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

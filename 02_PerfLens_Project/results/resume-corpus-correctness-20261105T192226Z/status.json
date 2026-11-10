@@ -1,0 +1,15 @@
+{
+  "status": "independent full/near corpus oracle passes on both revisions",
+  "answers": [
+    {
+      "valid": true,
+      "cases": 44,
+      "checksum": 2112424
+    },
+    {
+      "valid": true,
+      "cases": 44,
+      "checksum": 2112424
+    }
+  ]
+}

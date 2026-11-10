@@ -1,0 +1,4 @@
+diagnostic linear {'jdk.Compilation': 298, 'jdk.ObjectAllocationSample': 6, 'jdk.ExecutionSample': 515, 'jdk.CPULoad': 8, 'jdk.ThreadCPULoad': 10}
+diagnostic binary {'jdk.Compilation': 285, 'jdk.ObjectAllocationSample': 8, 'jdk.ExecutionSample': 311, 'jdk.ThreadCPULoad': 8, 'jdk.CPULoad': 3}
+diagnostic binary-tier1 {'jdk.Compilation': 278, 'jdk.ObjectAllocationSample': 7, 'jdk.ExecutionSample': 249, 'jdk.CPULoad': 2, 'jdk.ThreadCPULoad': 2}
+DIAGNOSTIC_FOLDER=C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\results\upgrade-diagnostics-20261104T215420Z

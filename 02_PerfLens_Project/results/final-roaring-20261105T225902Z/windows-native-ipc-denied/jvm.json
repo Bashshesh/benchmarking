@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "-XshowSettings:vm",
+    "-version"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "VM settings:\n    Max. Heap Size (Estimated): 3.84G\n    Using VM: Java HotSpot(TM) 64-Bit Server VM\n\njava version \"21.0.8\" 2025-07-15 LTS\nJava(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)\n",
+  "elapsed_seconds": 0.7650000000139698
+}

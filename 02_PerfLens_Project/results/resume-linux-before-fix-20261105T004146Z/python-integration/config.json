@@ -1,0 +1,23 @@
+{
+  "name": "linux-python",
+  "rounds": 5,
+  "seed": 845,
+  "arms": [
+    {
+      "name": "A",
+      "command": [
+        "{python}",
+        "-c",
+        "import json; print(json.dumps(dict(seconds=.01,checksum=4,valid=True)))"
+      ]
+    },
+    {
+      "name": "B",
+      "command": [
+        "{python}",
+        "-c",
+        "import json; print(json.dumps(dict(seconds=.01,checksum=4,valid=True)))"
+      ]
+    }
+  ]
+}

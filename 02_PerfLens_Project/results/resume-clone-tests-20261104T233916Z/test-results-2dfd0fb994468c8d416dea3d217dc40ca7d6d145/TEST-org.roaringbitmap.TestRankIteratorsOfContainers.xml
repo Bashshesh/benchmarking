@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.roaringbitmap.TestRankIteratorsOfContainers" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-11-04T23:45:19.194Z" hostname="030e2c5e76ad" time="0.526">
+  <properties/>
+  <testcase name="testArrayContainer1()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.115"/>
+  <testcase name="testArrayContainer2()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.012"/>
+  <testcase name="testArrayContainer3()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.001"/>
+  <testcase name="testRunContainer1()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.02"/>
+  <testcase name="testRunContainer2()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.03"/>
+  <testcase name="testRunContainer3()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.001"/>
+  <testcase name="testOverflow()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.025"/>
+  <testcase name="testBitmapContainer1()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.0"/>
+  <testcase name="testBitmapContainer2()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.017"/>
+  <testcase name="testBitmapContainer3()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.183"/>
+  <testcase name="testBitmapContainer4()" classname="org.roaringbitmap.TestRankIteratorsOfContainers" time="0.014"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

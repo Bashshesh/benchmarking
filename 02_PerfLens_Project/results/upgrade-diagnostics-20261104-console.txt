@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\diagnose.py", line 76, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\diagnose.py", line 48, in main
+    if result.returncode:raise RuntimeError('Diagnostic JVM failed; retained logs in '+str(case))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Diagnostic JVM failed; retained logs in C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\results\upgrade-diagnostics-20261104T204554Z\linear

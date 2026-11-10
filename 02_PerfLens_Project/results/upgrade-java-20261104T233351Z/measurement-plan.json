@@ -1,0 +1,28 @@
+{
+  "rounds": 10,
+  "threshold": 5,
+  "warmup_iterations": 3,
+  "warmup_time": "200ms",
+  "measurement_iterations": 3,
+  "measurement_time": "300ms",
+  "sampling_unit": "one JMH fork; iterations retained within fork",
+  "workloads": [
+    [
+      "rank",
+      "65535"
+    ],
+    [
+      "rank",
+      "65534"
+    ],
+    [
+      "fullContainerRange",
+      "65535"
+    ]
+  ],
+  "shas": [
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+    "684531c13877fbdacccf02262b32e6faf889d76f"
+  ],
+  "phase": "confirmatory after compatibility pilot; no tuning to outcomes"
+}

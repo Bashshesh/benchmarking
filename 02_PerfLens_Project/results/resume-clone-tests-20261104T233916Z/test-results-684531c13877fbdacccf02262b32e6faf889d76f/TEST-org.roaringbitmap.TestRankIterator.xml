@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.roaringbitmap.TestRankIterator" tests="182" skipped="0" failures="0" errors="0" timestamp="2026-11-04T23:46:23.301Z" hostname="8e0f8792ae48" time="1.84">
+  <properties/>
+  <testcase name="2" classname="org.roaringbitmap.TestRankIterator" time="0.127"/>
+  <testcase name="0" classname="org.roaringbitmap.TestRankIterator" time="0.044"/>
+  <testcase name="1" classname="org.roaringbitmap.TestRankIterator" time="0.101"/>
+  <testcase name="16" classname="org.roaringbitmap.TestRankIterator" time="0.027"/>
+  <testcase name="32" classname="org.roaringbitmap.TestRankIterator" time="0.011"/>
+  <testcase name="64" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="4" classname="org.roaringbitmap.TestRankIterator" time="0.016"/>
+  <testcase name="256" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="512" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="8" classname="org.roaringbitmap.TestRankIterator" time="0.011"/>
+  <testcase name="2048" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="4096" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="128" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="1024" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="8192" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="16384" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="32768" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="65536" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="131072" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="3" classname="org.roaringbitmap.TestRankIterator" time="0.018"/>
+  <testcase name="24" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="48" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="6" classname="org.roaringbitmap.TestRankIterator" time="0.009"/>
+  <testcase name="192" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="12" classname="org.roaringbitmap.TestRankIterator" time="0.048"/>
+  <testcase name="768" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="96" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="384" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="1536" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="3072" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="6144" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="12288" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="24576" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="49152" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="98304" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="196608" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="393216" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="5" classname="org.roaringbitmap.TestRankIterator" time="0.009"/>
+  <testcase name="40" classname="org.roaringbitmap.TestRankIterator" time="0.055"/>
+  <testcase name="10" classname="org.roaringbitmap.TestRankIterator" time="0.006"/>
+  <testcase name="20" classname="org.roaringbitmap.TestRankIterator" time="0.045"/>
+  <testcase name="80" classname="org.roaringbitmap.TestRankIterator" time="0.007"/>
+  <testcase name="160" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="320" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="640" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="1280" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="2560" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="5120" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="10240" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="20480" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="40960" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="81920" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="163840" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="327680" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="655360" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="7" classname="org.roaringbitmap.TestRankIterator" time="0.028"/>
+  <testcase name="14" classname="org.roaringbitmap.TestRankIterator" time="0.011"/>
+  <testcase name="112" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="28" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="56" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="224" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="448" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="896" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="1792" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="3584" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="7168" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="14336" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="28672" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="57344" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="114688" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="229376" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="458752" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="917504" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="11" classname="org.roaringbitmap.TestRankIterator" time="0.005"/>
+  <testcase name="22" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="44" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="88" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="176" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="352" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="704" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="1408" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="2816" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="5632" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="11264" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="22528" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="45056" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="90112" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="180224" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="360448" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="720896" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="1441792" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="0" classname="org.roaringbitmap.TestRankIterator" time="0.012"/>
+  <testcase name="1" classname="org.roaringbitmap.TestRankIterator" time="0.076"/>
+  <testcase name="8" classname="org.roaringbitmap.TestRankIterator" time="0.012"/>
+  <testcase name="16" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="32" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="64" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="128" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="256" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="512" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="2" classname="org.roaringbitmap.TestRankIterator" time="0.068"/>
+  <testcase name="2048" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="4096" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="8192" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="16384" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="32768" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="65536" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="131072" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="4" classname="org.roaringbitmap.TestRankIterator" time="0.014"/>
+  <testcase name="6" classname="org.roaringbitmap.TestRankIterator" time="0.013"/>
+  <testcase name="1024" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="3" classname="org.roaringbitmap.TestRankIterator" time="0.07"/>
+  <testcase name="48" classname="org.roaringbitmap.TestRankIterator" time="0.004"/>
+  <testcase name="96" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="192" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="12" classname="org.roaringbitmap.TestRankIterator" time="0.01"/>
+  <testcase name="768" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="24" classname="org.roaringbitmap.TestRankIterator" time="0.006"/>
+  <testcase name="384" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="1536" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="3072" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="6144" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="12288" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="24576" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="49152" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="98304" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="196608" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="393216" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="5" classname="org.roaringbitmap.TestRankIterator" time="0.01"/>
+  <testcase name="40" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="80" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="10" classname="org.roaringbitmap.TestRankIterator" time="0.056"/>
+  <testcase name="320" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="640" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="1280" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="2560" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="5120" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="10240" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="20" classname="org.roaringbitmap.TestRankIterator" time="0.007"/>
+  <testcase name="160" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="81920" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="20480" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="40960" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="163840" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="327680" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="14" classname="org.roaringbitmap.TestRankIterator" time="0.013"/>
+  <testcase name="655360" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="7" classname="org.roaringbitmap.TestRankIterator" time="0.019"/>
+  <testcase name="112" classname="org.roaringbitmap.TestRankIterator" time="0.008"/>
+  <testcase name="28" classname="org.roaringbitmap.TestRankIterator" time="0.056"/>
+  <testcase name="448" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="896" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="56" classname="org.roaringbitmap.TestRankIterator" time="0.014"/>
+  <testcase name="3584" classname="org.roaringbitmap.TestRankIterator" time="0.006"/>
+  <testcase name="7168" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="224" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="1792" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="14336" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="114688" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="28672" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="57344" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="229376" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="458752" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="917504" classname="org.roaringbitmap.TestRankIterator" time="0.003"/>
+  <testcase name="11" classname="org.roaringbitmap.TestRankIterator" time="0.007"/>
+  <testcase name="88" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="22" classname="org.roaringbitmap.TestRankIterator" time="0.007"/>
+  <testcase name="352" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="704" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="44" classname="org.roaringbitmap.TestRankIterator" time="0.002"/>
+  <testcase name="176" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="1408" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="2816" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="5632" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="11264" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="22528" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="45056" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="90112" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="180224" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="360448" classname="org.roaringbitmap.TestRankIterator" time="0.0"/>
+  <testcase name="720896" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <testcase name="1441792" classname="org.roaringbitmap.TestRankIterator" time="0.001"/>
+  <system-out><![CDATA[next: 32ms
+advance by 2: 68ms
+advance by 16: 25ms
+advance by 32: 10ms
+advance by 64: 2ms
+advance by 1: 100ms
+advance by 256: 0ms
+advance by 512: 0ms
+advance by 4: 15ms
+advance by 2048: 0ms
+advance by 8: 11ms
+advance by 4096: 0ms
+advance by 128: 1ms
+advance by 1024: 0ms
+advance by 8192: 0ms
+advance by 16384: 0ms
+advance by 32768: 0ms
+advance by 65536: 0ms
+advance by 131072: 0ms
+advance by 24: 2ms
+advance by 3: 16ms
+advance by 48: 1ms
+advance by 192: 0ms
+advance by 6: 7ms
+advance by 12: 47ms
+advance by 768: 0ms
+advance by 96: 2ms
+advance by 384: 0ms
+advance by 1536: 0ms
+advance by 3072: 0ms
+advance by 6144: 0ms
+advance by 12288: 0ms
+advance by 24576: 0ms
+advance by 49152: 0ms
+advance by 98304: 0ms
+advance by 196608: 0ms
+advance by 393216: 0ms
+advance by 5: 8ms
+advance by 10: 4ms
+advance by 20: 3ms
+advance by 40: 53ms
+advance by 80: 2ms
+advance by 160: 0ms
+advance by 320: 0ms
+advance by 640: 0ms
+advance by 1280: 0ms
+advance by 2560: 0ms
+advance by 5120: 0ms
+advance by 10240: 0ms
+advance by 20480: 0ms
+advance by 40960: 0ms
+advance by 81920: 0ms
+advance by 163840: 0ms
+advance by 327680: 0ms
+advance by 655360: 0ms
+advance by 7: 27ms
+advance by 14: 5ms
+advance by 112: 0ms
+advance by 28: 2ms
+advance by 56: 2ms
+advance by 224: 0ms
+advance by 448: 0ms
+advance by 896: 0ms
+advance by 1792: 0ms
+advance by 3584: 0ms
+advance by 7168: 0ms
+advance by 14336: 0ms
+advance by 28672: 0ms
+advance by 57344: 0ms
+advance by 114688: 0ms
+advance by 229376: 0ms
+advance by 458752: 0ms
+advance by 917504: 0ms
+advance by 11: 4ms
+advance by 22: 3ms
+advance by 44: 2ms
+advance by 88: 1ms
+advance by 176: 0ms
+advance by 352: 0ms
+advance by 704: 0ms
+advance by 1408: 0ms
+advance by 2816: 0ms
+advance by 5632: 0ms
+advance by 11264: 0ms
+advance by 22528: 0ms
+advance by 45056: 0ms
+advance by 90112: 0ms
+advance by 180224: 0ms
+advance by 360448: 0ms
+advance by 720896: 0ms
+advance by 1441792: 0ms
+next: 11ms
+advance by 8: 10ms
+advance by 16: 3ms
+advance by 32: 2ms
+advance by 64: 1ms
+advance by 128: 0ms
+advance by 256: 0ms
+advance by 1: 75ms
+advance by 512: 0ms
+advance by 2048: 0ms
+advance by 4096: 0ms
+advance by 8192: 0ms
+advance by 16384: 0ms
+advance by 32768: 0ms
+advance by 65536: 0ms
+advance by 131072: 0ms
+advance by 2: 67ms
+advance by 4: 12ms
+advance by 6: 12ms
+advance by 1024: 0ms
+advance by 48: 1ms
+advance by 96: 1ms
+advance by 3: 15ms
+advance by 192: 1ms
+advance by 12: 9ms
+advance by 768: 0ms
+advance by 24: 4ms
+advance by 384: 0ms
+advance by 1536: 0ms
+advance by 3072: 0ms
+advance by 6144: 0ms
+advance by 12288: 0ms
+advance by 24576: 0ms
+advance by 49152: 0ms
+advance by 98304: 0ms
+advance by 196608: 0ms
+advance by 393216: 0ms
+advance by 40: 1ms
+advance by 5: 8ms
+advance by 80: 1ms
+advance by 320: 0ms
+advance by 640: 0ms
+advance by 1280: 0ms
+advance by 2560: 0ms
+advance by 5120: 0ms
+advance by 10: 55ms
+advance by 10240: 0ms
+advance by 20: 6ms
+advance by 160: 0ms
+advance by 81920: 0ms
+advance by 20480: 0ms
+advance by 40960: 0ms
+advance by 163840: 0ms
+advance by 327680: 0ms
+advance by 655360: 0ms
+advance by 14: 12ms
+advance by 7: 18ms
+advance by 112: 7ms
+advance by 448: 0ms
+advance by 896: 0ms
+advance by 28: 55ms
+advance by 56: 3ms
+advance by 3584: 0ms
+advance by 7168: 0ms
+advance by 224: 0ms
+advance by 1792: 0ms
+advance by 14336: 0ms
+advance by 114688: 0ms
+advance by 28672: 0ms
+advance by 57344: 0ms
+advance by 229376: 0ms
+advance by 458752: 0ms
+advance by 917504: 2ms
+advance by 88: 1ms
+advance by 11: 6ms
+advance by 352: 0ms
+advance by 22: 6ms
+advance by 704: 0ms
+advance by 44: 1ms
+advance by 176: 0ms
+advance by 1408: 0ms
+advance by 2816: 0ms
+advance by 5632: 0ms
+advance by 11264: 0ms
+advance by 22528: 0ms
+advance by 45056: 0ms
+advance by 90112: 0ms
+advance by 180224: 0ms
+advance by 360448: 0ms
+advance by 720896: 0ms
+advance by 1441792: 0ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

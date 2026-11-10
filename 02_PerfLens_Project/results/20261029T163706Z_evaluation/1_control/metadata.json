@@ -1,0 +1,36 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-29T16:37:06.926592+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "logical_cpus": 12,
+  "root_revision": "a5a086bf2c62572a9562f4d03de85f0e098fde41",
+  "networkx_revision": "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985",
+  "source_sha256": {
+    "analyze.py": "d9dd066508052afe16aacbf343e6fdbd460ffdbbdfca3d855c2f3c7398b34b5e",
+    "benchmark.py": "dd63273659fa37dbdca841d4f048b5098b04348cd505dd3aec35cf2450efc986",
+    "make_configs.py": "cc4a31fa1deaa406028c16f97db859db1556c8de73333cb721cdbf7b0f34fde2",
+    "perflens.py": "a9393e7e60c2c323061ac6909e3a7eae6d7a7dc44f4ad098619371fdb4d7ee81",
+    "run.py": "f3c5dc9725e59dac32b228419723c4b2db6cad5c88d1b591e5bffe61b62cea0b",
+    "run_suite.py": "0001cb8a899296180b61a8766aa2d7cd3ab2c19990b715757998efd3f8564072",
+    "test_analysis.py": "102f5b9c15c1132aaf349aa105e343e41e507d4c52eb4a24dff63f1327ee0546",
+    "workloads\\graph_queries.py": "02b58a13fcddd069309a86a5ee64c71c8f976a4ecfdb4af164e8257edd52fbfe",
+    "workloads\\SearchBench.java": "17342d60ec59c5698e6765b88b84f2a6a08dd938c8a22a28956b1bda1e0c8ed4"
+  },
+  "runtime": {
+    "java": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\work\\java\\jdk-21.0.13+9\\bin\\java.exe"
+  },
+  "timer": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+  "environment": {
+    "PYTHONHASHSEED": null,
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null
+  },
+  "design": "Randomized paired fresh processes; batch averages are observations; 5000 paired bootstrap resamples",
+  "java_version": "openjdk version \"21.0.13\" 2026-10-20 LTS\nOpenJDK Runtime Environment Temurin-21.0.13+9 (build 21.0.13+9-LTS)\nOpenJDK 64-Bit Server VM Temurin-21.0.13+9 (build 21.0.13+9-LTS, mixed mode, sharing)\n",
+  "java_class_sha256": "62273b80844cb11e2c60da42e01bbd98b8f3b780b26159371d606f83dc936a09",
+  "finished_utc": "2026-10-29T16:37:45.700786+00:00",
+  "raw_sha256": "59dc4dc1da4dcb8bd61f6e6dbb1aaa9803c9e64f14f0ec31a94aba9abfc5fb3f"
+}

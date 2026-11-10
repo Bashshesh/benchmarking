@@ -1,0 +1,38 @@
+{
+  "name": "java_optimization",
+  "session": 1,
+  "seed": 1730,
+  "rounds": 20,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "linear_search",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "baseline",
+        "20000",
+        "2000",
+        "5",
+        "5"
+      ]
+    },
+    {
+      "name": "binary_search",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "optimized",
+        "20000",
+        "2000",
+        "5",
+        "5"
+      ]
+    }
+  ]
+}

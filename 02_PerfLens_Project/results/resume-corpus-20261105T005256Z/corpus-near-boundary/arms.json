@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+    "684531c13877fbdacccf02262b32e6faf889d76f"
+  ],
+  "case": "corpus-near-boundary",
+  "method": "nearBoundary"
+}

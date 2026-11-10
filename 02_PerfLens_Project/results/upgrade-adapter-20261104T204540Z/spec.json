@@ -1,0 +1,56 @@
+{
+  "trust": "reviewed-project-owned",
+  "inputs": [
+    "workloads/SearchBench.java",
+    "upgrade/workloads/MetricsBench.java"
+  ],
+  "build_timeout": 60,
+  "build_commands": [
+    [
+      "{python}",
+      "-c",
+      "from pathlib import Path; Path(r'{root}/build/upgrade').mkdir(parents=True,exist_ok=True)"
+    ],
+    [
+      "{javac}",
+      "-d",
+      "{root}/build/upgrade",
+      "{root}/workloads/SearchBench.java",
+      "{root}/upgrade/workloads/MetricsBench.java"
+    ]
+  ],
+  "measurement": {
+    "name": "adapter_java_algorithm",
+    "session": 1,
+    "rounds": 5,
+    "seed": 7401,
+    "threshold": 5,
+    "timeout": 120,
+    "arms": [
+      {
+        "name": "linear",
+        "command": [
+          "{java}",
+          "-cp",
+          "{root}/build/upgrade",
+          "MetricsBench",
+          "baseline",
+          "100",
+          "10"
+        ]
+      },
+      {
+        "name": "binary",
+        "command": [
+          "{java}",
+          "-cp",
+          "{root}/build/upgrade",
+          "MetricsBench",
+          "optimized",
+          "100",
+          "10"
+        ]
+      }
+    ]
+  }
+}

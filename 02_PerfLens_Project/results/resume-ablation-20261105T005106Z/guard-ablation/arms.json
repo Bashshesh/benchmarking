@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "reference",
+    "candidate"
+  ],
+  "case": "guard-ablation",
+  "method": "rank"
+}

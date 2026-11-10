@@ -1,0 +1,34 @@
+{
+  "name": "adapter_java_algorithm",
+  "session": 1,
+  "rounds": 5,
+  "seed": 7401,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "linear",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build/upgrade",
+        "MetricsBench",
+        "baseline",
+        "100",
+        "10"
+      ]
+    },
+    {
+      "name": "binary",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build/upgrade",
+        "MetricsBench",
+        "optimized",
+        "100",
+        "10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "receipt": "r09-2dfd0fb99446-commands.json",
+  "invocation": "java -Xms512m -Xmx512m -cp /out/lazy:/out/library:/out/harness:/opt/jmh/commons-math3-3.6.1.jar:/opt/jmh/jmh-core-1.37.jar:/opt/jmh/jmh-generator-annprocess-1.37.jar:/opt/jmh/jopt-simple-5.0.4.jar org.openjdk.jmh.Main perflens.finalstudy.LazyRank.rankBatch -f 1 -t 1 -foe true -bm ss -wi 30 -i 20 -wbs 1 -bs 1 -p scenario=first -p repairs=false -rf json -rff /out/r09-2dfd0fb99446-first.json"
+}

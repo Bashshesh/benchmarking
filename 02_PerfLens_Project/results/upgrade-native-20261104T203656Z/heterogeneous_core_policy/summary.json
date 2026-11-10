@@ -1,0 +1,85 @@
+{
+  "comparison": {
+    "change_percent": 12.61822776733843,
+    "ci95_percent": [
+      0.8208367874522171,
+      35.14380040310774
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "inconclusive"
+  },
+  "summaries": {
+    "higher_class": {
+      "n": 10,
+      "mean_seconds": 0.000259017515,
+      "median_seconds": 0.00029958984999999997,
+      "sd_seconds": 8.352168489392458e-05,
+      "variance_seconds2": 6.975871847520028e-09,
+      "cv_percent": 32.24557416278377
+    },
+    "lower_class": {
+      "n": 10,
+      "mean_seconds": 0.000291700935,
+      "median_seconds": 0.000314285125,
+      "sd_seconds": 4.797454325388534e-05,
+      "variance_seconds2": 2.301556800418916e-09,
+      "cv_percent": 16.446482509178566
+    }
+  },
+  "target": null,
+  "secondary_metrics": {
+    "higher_class": {
+      "process_cpu_seconds_per_operation": {
+        "n": 10,
+        "mean": 0.00021875,
+        "min": 0.000109375,
+        "max": 0.0002734375
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 10,
+        "mean": 0.152,
+        "min": 0.152,
+        "max": 0.152
+      },
+      "throughput_ops_per_second": {
+        "n": 10,
+        "mean": 4462.761992457821,
+        "min": 2900.516770570429,
+        "max": 8588.685694899823
+      }
+    },
+    "lower_class": {
+      "process_cpu_seconds_per_operation": {
+        "n": 10,
+        "mean": 0.0002890625,
+        "min": 0.0001953125,
+        "max": 0.0003203125
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 10,
+        "mean": 0.152,
+        "min": 0.152,
+        "max": 0.152
+      },
+      "throughput_ops_per_second": {
+        "n": 10,
+        "mean": 3540.7587387626336,
+        "min": 3174.7195809878112,
+        "max": 5040.4064180503
+      }
+    }
+  },
+  "dependence": {
+    "higher_class": {
+      "lag_one_descriptive": 0.6648468501318424,
+      "second_half_change_percent": -35.036141997018674,
+      "n": 10
+    },
+    "lower_class": {
+      "lag_one_descriptive": 0.4772755184257154,
+      "second_half_change_percent": -14.364161744871994,
+      "n": 10
+    }
+  }
+}

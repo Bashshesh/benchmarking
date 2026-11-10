@@ -1,0 +1,65 @@
+{
+  "comparison": {
+    "change_percent": -2.968068046111272,
+    "ci95_percent": [
+      -31.513292364980206,
+      27.571568829359183
+    ],
+    "statistical_direction": "uncertain",
+    "threshold_percent": 5,
+    "decision": "inconclusive"
+  },
+  "summaries": {
+    "unchanged_reference": {
+      "n": 5,
+      "mean_seconds": 0.004396799998357892,
+      "median_seconds": 0.003576299990527332,
+      "sd_seconds": 0.001793361320899749,
+      "variance_seconds2": 3.216144827299293e-06,
+      "cv_percent": 40.78787576349914
+    },
+    "work_intervention": {
+      "n": 5,
+      "mean_seconds": 0.00426629998255521,
+      "median_seconds": 0.0040963999927043915,
+      "sd_seconds": 0.0003833367958038006,
+      "variance_seconds2": 1.4694709901712472e-07,
+      "cv_percent": 8.985228356450667
+    }
+  },
+  "target": null,
+  "secondary_metrics": {
+    "unchanged_reference": {
+      "process_cpu_seconds_per_operation": {
+        "n": 5,
+        "mean": 0.003125,
+        "min": 0.0,
+        "max": 0.015625
+      },
+      "thread_allocated_bytes_per_operation": null,
+      "throughput_ops_per_second": null
+    },
+    "work_intervention": {
+      "process_cpu_seconds_per_operation": {
+        "n": 5,
+        "mean": 0.00625,
+        "min": 0.0,
+        "max": 0.015625
+      },
+      "thread_allocated_bytes_per_operation": null,
+      "throughput_ops_per_second": null
+    }
+  },
+  "dependence": {
+    "unchanged_reference": {
+      "lag_one_descriptive": -0.3295934461190027,
+      "second_half_change_percent": 32.653338872336256,
+      "n": 5
+    },
+    "work_intervention": {
+      "lag_one_descriptive": -0.3842242502235219,
+      "second_half_change_percent": -9.100242307271367,
+      "n": 5
+    }
+  }
+}

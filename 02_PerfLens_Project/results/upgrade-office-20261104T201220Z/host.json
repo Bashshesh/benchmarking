@@ -1,0 +1,38 @@
+{
+  "role": "office Windows native",
+  "physical_host_continuity": "same office context/hardware; do not treat new date as a new physical machine",
+  "host_key": "df1614e92d7ab0771d2430f2ac7d8bd32e179dd532ceaa7b7d6c6b368d5f9d63",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "cpu_counts": [
+    22,
+    16
+  ],
+  "java": "java version \"21.0.8\" 2025-07-15 LTS\nJava(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)\n",
+  "revision": "9a6286ea60028c08e778c016f30f4921385311f9"
+}

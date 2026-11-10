@@ -1,0 +1,12 @@
+SMOKE_ONLY_graph: pair 1/5
+SMOKE_ONLY_graph: pair 2/5
+SMOKE_ONLY_graph: pair 3/5
+SMOKE_ONLY_graph: pair 4/5
+SMOKE_ONLY_graph: pair 5/5
+C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\results\final-runner-smoke\graph {'change_percent': 0.4153734478076876, 'ci95_percent': [-1.0723272959945018, 2.3840486242778347], 'statistical_direction': 'uncertain', 'threshold_percent': 5, 'decision': 'within_threshold'}
+SMOKE_ONLY_java: pair 1/5
+SMOKE_ONLY_java: pair 2/5
+SMOKE_ONLY_java: pair 3/5
+SMOKE_ONLY_java: pair 4/5
+SMOKE_ONLY_java: pair 5/5
+C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\results\final-runner-smoke\java {'change_percent': -21.346886912325292, 'ci95_percent': [-45.08771929824561, 1.967213114754096], 'statistical_direction': 'uncertain', 'threshold_percent': 5, 'decision': 'inconclusive'}

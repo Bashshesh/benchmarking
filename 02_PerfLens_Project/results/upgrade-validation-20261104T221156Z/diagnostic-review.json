@@ -1,0 +1,64 @@
+{
+  "linear": {
+    "event_counts": {
+      "jdk.Compilation": 298,
+      "jdk.ObjectAllocationSample": 6,
+      "jdk.ExecutionSample": 515,
+      "jdk.CPULoad": 8,
+      "jdk.ThreadCPULoad": 10
+    },
+    "compilation_levels": {
+      "3": 199,
+      "1": 30,
+      "2": 7,
+      "4": 62
+    },
+    "recording_sha256": "60c94c32d8457c0ca75daa60da5bf4f68b99c00cc40c202f7847d719c2174452",
+    "limit": "counts depend on instrumented duration, settings and operation budget; do not compare raw counts as speedups",
+    "application_compilations": {
+      "SearchBench.search tier 3": 2,
+      "SearchBench.search tier 4": 3
+    },
+    "execution_samples_with_search": 512
+  },
+  "binary": {
+    "event_counts": {
+      "jdk.Compilation": 285,
+      "jdk.ObjectAllocationSample": 8,
+      "jdk.ExecutionSample": 311,
+      "jdk.ThreadCPULoad": 8,
+      "jdk.CPULoad": 3
+    },
+    "compilation_levels": {
+      "3": 179,
+      "1": 29,
+      "2": 7,
+      "4": 70
+    },
+    "recording_sha256": "239a03aa80c61d86fc8d8ece19c72637303c7451aef57757ca7d616eb22cfd31",
+    "limit": "counts depend on instrumented duration, settings and operation budget; do not compare raw counts as speedups",
+    "application_compilations": {
+      "SearchBench.search tier 3": 2,
+      "SearchBench.search tier 4": 2
+    },
+    "execution_samples_with_search": 310
+  },
+  "binary-tier1": {
+    "event_counts": {
+      "jdk.Compilation": 278,
+      "jdk.ObjectAllocationSample": 7,
+      "jdk.ExecutionSample": 249,
+      "jdk.CPULoad": 2,
+      "jdk.ThreadCPULoad": 2
+    },
+    "compilation_levels": {
+      "1": 278
+    },
+    "recording_sha256": "1a14f0e451d37875a1da341ffdfc6a37aaaf6c399aa511ddc0c2485bfe04d497",
+    "limit": "counts depend on instrumented duration, settings and operation budget; do not compare raw counts as speedups",
+    "application_compilations": {
+      "SearchBench.search tier 1": 2
+    },
+    "execution_samples_with_search": 246
+  }
+}

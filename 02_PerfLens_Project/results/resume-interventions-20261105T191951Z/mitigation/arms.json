@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "reference",
+    "candidate"
+  ],
+  "case": "mitigation",
+  "method": "same-v-separate"
+}

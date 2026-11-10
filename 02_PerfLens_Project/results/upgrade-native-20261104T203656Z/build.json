@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Program Files\\Java\\jdk-21\\bin\\javac.exe",
+    "-d",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\workloads\\SearchBench.java",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\upgrade\\workloads\\MetricsBench.java"
+  ],
+  "started_utc": "2026-11-04T20:36:56.975977+00:00",
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ""
+}

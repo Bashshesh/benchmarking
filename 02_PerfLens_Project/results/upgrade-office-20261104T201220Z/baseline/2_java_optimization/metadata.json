@@ -1,0 +1,49 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-04T20:31:50.532900+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "logical_cpus": 22,
+  "root_revision": "9a6286ea60028c08e778c016f30f4921385311f9",
+  "networkx_revision": "6da4704cbf32ba6f50f6d9c46cc0a071e3a87985",
+  "source_sha256": {
+    "analyze.py": "d9dd066508052afe16aacbf343e6fdbd460ffdbbdfca3d855c2f3c7398b34b5e",
+    "audit_original.py": "a2d4cedf9ba505ae4400a811097a9d7f17c06259a0cc63b612e8c9f2f85c1806",
+    "benchmark.py": "dd63273659fa37dbdca841d4f048b5098b04348cd505dd3aec35cf2450efc986",
+    "benchmark_launcher.py": "2141fca9a5f3aea6c8dd5f9aada781bb3355105b2d444b56cd223e176c0f1edd",
+    "build_package.py": "9969f9421003781902ee5cacda9b7205b761a14016c4bf2ab3955729f02970e9",
+    "diagnose.py": "a6f3ba27d0fe4d8d34d36c14522d0a91e77c39e3fe65ebbe62aeb9419b05e29f",
+    "make_configs.py": "cc4a31fa1deaa406028c16f97db859db1556c8de73333cb721cdbf7b0f34fde2",
+    "numpy_diagnostic.py": "8d49ae1ddfd8a4e7919cc5a83b1249645e4f4c28f3e5ec556154b5d8bbfd0b54",
+    "perflens.py": "a024ad14d0cd0ce116b6489aed698cca24386309de875b1984af875ddc724606",
+    "prepare_sources.py": "75da82c423228dd40de2073fcba2758358c38a97543cca37485b4af7b73f827c",
+    "process_control.py": "ccc6b1688d9d5060464759b279bb84d1fe10b78952cf6af9ff811fd1d2e196eb",
+    "run.py": "f3c5dc9725e59dac32b228419723c4b2db6cad5c88d1b591e5bffe61b62cea0b",
+    "run_suite.py": "0001cb8a899296180b61a8766aa2d7cd3ab2c19990b715757998efd3f8564072",
+    "summarize.py": "613c00d56b2e4c0b01813c8da9d6c7766fa3850fba63079c8df89f41d8b0dd17",
+    "test_analysis.py": "102f5b9c15c1132aaf349aa105e343e41e507d4c52eb4a24dff63f1327ee0546",
+    "verify_package.py": "318608744026126c1ad35ca10c41ce33216fafdcf3a815cd89748ea7e16599b5",
+    "workloads\\graph_queries.py": "1229e07a38db563aaf42945387235d321cb357ac36a46d03ca1a7be69fa89489",
+    "workloads\\numpy_argsort.py": "e054b0e10c1c77ef0e0b3f5939bf5f28a1b9f073d2e851bf5f124edcd4546e25",
+    "workloads\\SearchBench.java": "17342d60ec59c5698e6765b88b84f2a6a08dd938c8a22a28956b1bda1e0c8ed4"
+  },
+  "runtime": {
+    "java": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe"
+  },
+  "timer": "namespace(implementation='QueryPerformanceCounter()', monotonic=True, adjustable=False, resolution=1e-07)",
+  "environment": {
+    "PYTHONHASHSEED": "0",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONNOUSERSITE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "PYTHONPATH": "removed"
+  },
+  "design": "Randomized paired fresh processes; batch averages are observations; 5000 paired bootstrap resamples",
+  "java_version": "java version \"21.0.8\" 2025-07-15 LTS\nJava(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)\n",
+  "java_class_sha256": "62273b80844cb11e2c60da42e01bbd98b8f3b780b26159371d606f83dc936a09",
+  "finished_utc": "2026-11-04T20:32:21.457235+00:00",
+  "raw_sha256": "b094ab078dc429a41788b54262d3fb02011942ef42eaf8bf748f74636ccf3627"
+}

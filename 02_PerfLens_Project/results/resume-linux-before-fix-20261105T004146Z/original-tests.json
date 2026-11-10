@@ -1,0 +1,11 @@
+{
+  "command": [
+    "-m",
+    "unittest",
+    "-v",
+    "test_analysis.py"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_invalid_timings (test_analysis.AnalysisTests.test_invalid_timings) ... ok\ntest_known_effect_and_shared_drift (test_analysis.AnalysisTests.test_known_effect_and_shared_drift) ... ok\ntest_partial_and_failed_runs_are_rejected (test_analysis.AnalysisTests.test_partial_and_failed_runs_are_rejected) ... ok\ntest_statistical_and_practical_are_different (test_analysis.AnalysisTests.test_statistical_and_practical_are_different) ... ok\ntest_uncertainty_and_reproducibility (test_analysis.AnalysisTests.test_uncertainty_and_reproducibility) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 1.348s\n\nOK\n"
+}

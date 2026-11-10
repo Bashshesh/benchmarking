@@ -1,0 +1,17 @@
+guard-ablation 1 candidate
+guard-ablation 1 reference
+guard-ablation 2 candidate
+guard-ablation 2 reference
+guard-ablation 3 reference
+guard-ablation 3 candidate
+guard-ablation 4 reference
+guard-ablation 4 candidate
+guard-ablation 5 candidate
+guard-ablation 5 reference
+guard-ablation 6 candidate
+guard-ablation 6 reference
+guard-ablation 7 candidate
+guard-ablation 7 reference
+guard-ablation 8 reference
+guard-ablation 8 candidate
+C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\results\resume-ablation-20261105T005106Z

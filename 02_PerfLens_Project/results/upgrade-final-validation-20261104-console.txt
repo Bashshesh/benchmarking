@@ -1,0 +1,12 @@
+{
+  "validation_folder": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\results\\upgrade-validation-20261104T221156Z",
+  "baseline_comparisons": 17,
+  "baseline_observations": 680,
+  "native_comparisons": 22,
+  "native_observations": 278,
+  "synthetic_datasets": 540,
+  "tests": {
+    "final-original-tests.txt": 5,
+    "final-extension-tests.txt": 23
+  }
+}

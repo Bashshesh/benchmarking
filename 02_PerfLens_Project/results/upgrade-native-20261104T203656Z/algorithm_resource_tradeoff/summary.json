@@ -1,0 +1,85 @@
+{
+  "comparison": {
+    "change_percent": -97.47514907804641,
+    "ci95_percent": [
+      -97.62541111777279,
+      -97.27059229423107
+    ],
+    "statistical_direction": "faster",
+    "threshold_percent": 5,
+    "decision": "improvement"
+  },
+  "summaries": {
+    "linear": {
+      "n": 8,
+      "mean_seconds": 0.0125248761125,
+      "median_seconds": 0.01255982955,
+      "sd_seconds": 0.001232449007481422,
+      "variance_seconds2": 1.518930556041942e-06,
+      "cv_percent": 9.840009565056064
+    },
+    "binary": {
+      "n": 8,
+      "mean_seconds": 0.00031623445,
+      "median_seconds": 0.00031400685,
+      "sd_seconds": 1.7871768454504676e-05,
+      "variance_seconds2": 3.1940010769142843e-10,
+      "cv_percent": 5.651429961063595
+    }
+  },
+  "target": null,
+  "secondary_metrics": {
+    "linear": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.011177734375,
+        "min": 0.010359375,
+        "max": 0.012078125
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.16,
+        "min": 0.16,
+        "max": 0.16
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 80.52487790260633,
+        "min": 71.48551270310428,
+        "max": 89.68891641501527
+      }
+    },
+    "binary": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.00030859375,
+        "min": 0.00028125,
+        "max": 0.000359375
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.456,
+        "min": 0.456,
+        "max": 0.456
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 3171.197693750495,
+        "min": 2881.9050083762572,
+        "max": 3527.8570173662292
+      }
+    }
+  },
+  "dependence": {
+    "linear": {
+      "lag_one_descriptive": 0.6892179861555888,
+      "second_half_change_percent": -16.47701399301882,
+      "n": 8
+    },
+    "binary": {
+      "lag_one_descriptive": -0.3837587037301358,
+      "second_half_change_percent": -1.9467323244228285,
+      "n": 8
+    }
+  }
+}

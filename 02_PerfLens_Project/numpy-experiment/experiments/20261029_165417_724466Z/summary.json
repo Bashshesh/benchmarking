@@ -1,0 +1,35 @@
+{
+  "commits": [
+    "numpy-1.26.4",
+    "numpy-2.0.0"
+  ],
+  "summaries": {
+    "numpy-1.26.4": {
+      "n": 20,
+      "mean_seconds": 0.0006048970499541611,
+      "median_seconds": 0.000600180501351133,
+      "sd_seconds": 1.791418095826833e-05,
+      "variance_seconds2": 3.2091787940558365e-10,
+      "cv_percent": 2.9615255950786765
+    },
+    "numpy-2.0.0": {
+      "n": 20,
+      "mean_seconds": 0.002008457349962555,
+      "median_seconds": 0.002017378999153152,
+      "sd_seconds": 4.6393611329366714e-05,
+      "variance_seconds2": 2.152367172180344e-09,
+      "cv_percent": 2.309912696439965
+    }
+  },
+  "comparison": {
+    "change_percent": 232.03292198478326,
+    "ci95_percent": [
+      227.3459102548906,
+      236.24940057666407
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "method": "Paired percentile bootstrap of relative mean change; 5000 resamples; 95% CI"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "python_optimization",
+  "session": 2,
+  "seed": 1731,
+  "rounds": 20,
+  "threshold": 5,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "repeated_BFS",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "baseline",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ]
+    },
+    {
+      "name": "reuse_BFS",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--variant",
+        "optimized",
+        "--size",
+        "35",
+        "--loops",
+        "5",
+        "--warmups",
+        "3"
+      ]
+    }
+  ],
+  "target_seconds": 0.003
+}

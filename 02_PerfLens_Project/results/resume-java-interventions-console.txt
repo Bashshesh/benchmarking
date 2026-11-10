@@ -1,0 +1,36 @@
+contention 1 candidate
+contention 1 reference
+contention 2 candidate
+contention 2 reference
+contention 3 reference
+contention 3 candidate
+contention 4 reference
+contention 4 candidate
+contention 5 candidate
+contention 5 reference
+contention 6 candidate
+contention 6 reference
+contention 7 candidate
+contention 7 reference
+contention 8 reference
+contention 8 candidate
+mitigation 1 candidate
+mitigation 1 reference
+mitigation 2 candidate
+mitigation 2 reference
+mitigation 3 reference
+mitigation 3 candidate
+mitigation 4 reference
+mitigation 4 candidate
+Traceback (most recent call last):
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 134, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 121, in main
+    run(s,sha,out,args,target/(filename+'.command.json'))
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 16, in run
+    return command(base+args,log,timeout,name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\reproduce.py", line 41, in command
+    raise RuntimeError('Command failed; retained '+str(log))
+RuntimeError: Command failed; retained C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\results\resume-interventions-20261105T005600Z\mitigation\mitigation-5-0.json.command.json

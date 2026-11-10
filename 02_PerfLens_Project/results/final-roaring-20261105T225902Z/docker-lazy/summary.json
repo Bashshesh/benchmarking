@@ -1,0 +1,114 @@
+{
+  "pairs": 10,
+  "forks": 60,
+  "effects": {
+    "cached": {
+      "reference_ns": 964.04478515625,
+      "candidate_ns": 8.74216796875,
+      "change_percent": -99.09317823161783,
+      "ci95_percent": [
+        -99.43361616933703,
+        -98.4327566270709
+      ],
+      "statistical_direction": "faster",
+      "threshold_percent": 5,
+      "decision": "improvement"
+    },
+    "first": {
+      "reference_ns": 857.00705078125,
+      "candidate_ns": 714.6046484375,
+      "change_percent": -16.616246297382908,
+      "ci95_percent": [
+        -38.144338977758466,
+        8.920498542371092
+      ],
+      "statistical_direction": "uncertain",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    },
+    "repeat": {
+      "reference_ns": 660.4358203125,
+      "candidate_ns": 8.41845703125,
+      "change_percent": -98.72531792305472,
+      "ci95_percent": [
+        -98.99441277986276,
+        -98.37233875235263
+      ],
+      "statistical_direction": "faster",
+      "threshold_percent": 5,
+      "decision": "improvement"
+    },
+    "2dfd0fb99446:first/cached": {
+      "reference_ns": 964.04478515625,
+      "candidate_ns": 857.00705078125,
+      "change_percent": -11.102983598179161,
+      "ci95_percent": [
+        -32.60910495353998,
+        12.99390126012887
+      ],
+      "statistical_direction": "uncertain",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    },
+    "2dfd0fb99446:repeat/first": {
+      "reference_ns": 857.00705078125,
+      "candidate_ns": 660.4358203125,
+      "change_percent": -22.936944368142022,
+      "ci95_percent": [
+        -45.24589561357807,
+        2.161310795966931
+      ],
+      "statistical_direction": "uncertain",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    },
+    "2dfd0fb99446:repeat/cached": {
+      "reference_ns": 964.04478515625,
+      "candidate_ns": 660.4358203125,
+      "change_percent": -31.493242795202892,
+      "ci95_percent": [
+        -52.2279316911739,
+        1.4989000517498408
+      ],
+      "statistical_direction": "uncertain",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    },
+    "684531c13877:first/cached": {
+      "reference_ns": 8.74216796875,
+      "candidate_ns": 714.6046484375,
+      "change_percent": 8074.226930801902,
+      "ci95_percent": [
+        5437.526401957716,
+        10990.309009836223
+      ],
+      "statistical_direction": "slower",
+      "threshold_percent": 5,
+      "decision": "regression"
+    },
+    "684531c13877:repeat/first": {
+      "reference_ns": 714.6046484375,
+      "candidate_ns": 8.41845703125,
+      "change_percent": -98.8219420277132,
+      "ci95_percent": [
+        -99.13286499012786,
+        -98.43241890466292
+      ],
+      "statistical_direction": "faster",
+      "threshold_percent": 5,
+      "decision": "improvement"
+    },
+    "684531c13877:repeat/cached": {
+      "reference_ns": 8.74216796875,
+      "candidate_ns": 8.41845703125,
+      "change_percent": -3.702867968873935,
+      "ci95_percent": [
+        -40.44153750948903,
+        57.84623401259379
+      ],
+      "statistical_direction": "uncertain",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    }
+  }
+}

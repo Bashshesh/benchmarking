@@ -1,0 +1,52 @@
+[
+  {
+    "jmhVersion": "1.37",
+    "benchmark": "perflens.external.CorpusBenchmark.fullBlock",
+    "mode": "avgt",
+    "threads": 1,
+    "forks": 1,
+    "jvm": "/opt/java/openjdk/bin/java",
+    "jvmArgs": [
+      "-Xms512m",
+      "-Xmx512m"
+    ],
+    "jdkVersion": "21.0.7",
+    "vmName": "OpenJDK 64-Bit Server VM",
+    "vmVersion": "21.0.7+6-LTS",
+    "warmupIterations": 3,
+    "warmupTime": "200 ms",
+    "warmupBatchSize": 1,
+    "measurementIterations": 3,
+    "measurementTime": "300 ms",
+    "measurementBatchSize": 1,
+    "primaryMetric": {
+      "score": 11.040209001131991,
+      "scoreError": 43.87996840914125,
+      "scoreConfidence": [
+        -32.83975940800926,
+        54.92017741027324
+      ],
+      "scorePercentiles": {
+        "0.0": 8.797605826963803,
+        "50.0": 10.742680353599695,
+        "90.0": 13.580340822832476,
+        "95.0": 13.580340822832476,
+        "99.0": 13.580340822832476,
+        "99.9": 13.580340822832476,
+        "99.99": 13.580340822832476,
+        "99.999": 13.580340822832476,
+        "99.9999": 13.580340822832476,
+        "100.0": 13.580340822832476
+      },
+      "scoreUnit": "ns/op",
+      "rawData": [
+        [
+          13.580340822832476,
+          10.742680353599695,
+          8.797605826963803
+        ]
+      ]
+    },
+    "secondaryMetrics": {}
+  }
+]

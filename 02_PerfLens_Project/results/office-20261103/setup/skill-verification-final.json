@@ -1,0 +1,126 @@
+{
+  "skills": [
+    {
+      "name": "code-review",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "codebase-design",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "domain-modeling",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "grill-me",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "grilling",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "handoff",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "implement",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "implement-spec",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "status": "installed and readable",
+      "changed_files": [
+        "HTML-REPORT.md",
+        "SKILL.md"
+      ],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "research",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "tdd",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "to-spec",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "to-tickets",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "triage",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "wait-what",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    },
+    {
+      "name": "wizard",
+      "status": "installed and readable",
+      "changed_files": [],
+      "live_selector_activation": "not verified in this parent-folder chat"
+    }
+  ],
+  "installed_count": 18,
+  "missing_required_skills": [],
+  "config_entries": [],
+  "offline_svg_check": "HTML safety and SVG structure passed; browser check separate",
+  "provenance": "Original upstream commit unverified; user-approved snapshot installation",
+  "conditional_unavailable": [
+    "gh",
+    "glab",
+    "shellcheck",
+    "local Mermaid renderer"
+  ]
+}

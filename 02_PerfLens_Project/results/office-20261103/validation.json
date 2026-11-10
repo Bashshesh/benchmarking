@@ -1,0 +1,94 @@
+[
+  {
+    "name": "package",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-B",
+      "verify_package.py"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "original-tests",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "-v",
+      "test_analysis.py"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "extension-tests",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "original-audit",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-B",
+      "-c",
+      "import audit_original as a; from pathlib import Path; old=a.write_json; a.write_json=lambda p,v: old(Path('results/office-20261103/original-audit.json'),v); a.main()"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "pip-check",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "check"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "pip-freeze",
+    "command": [
+      "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pip",
+      "freeze"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "java-version",
+    "command": [
+      "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+      "-version"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "power-plan",
+    "command": [
+      "powercfg",
+      "/getactivescheme"
+    ],
+    "returncode": 0
+  },
+  {
+    "name": "networkx-status",
+    "command": [
+      "git",
+      "-C",
+      "networkx_repo",
+      "status",
+      "--porcelain"
+    ],
+    "returncode": 0
+  }
+]

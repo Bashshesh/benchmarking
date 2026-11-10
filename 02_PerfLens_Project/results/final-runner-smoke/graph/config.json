@@ -1,0 +1,41 @@
+{
+  "name": "SMOKE_ONLY_graph",
+  "rounds": 5,
+  "threshold": 5,
+  "seed": 7,
+  "arms": [
+    {
+      "name": "quiet",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--size",
+        "5",
+        "--queries",
+        "3",
+        "--loops",
+        "1",
+        "--warmups",
+        "0"
+      ],
+      "cpu": 2
+    },
+    {
+      "name": "load",
+      "command": [
+        "{python}",
+        "{root}/workloads/graph_queries.py",
+        "--size",
+        "5",
+        "--queries",
+        "3",
+        "--loops",
+        "1",
+        "--warmups",
+        "0"
+      ],
+      "cpu": 2,
+      "load": true
+    }
+  ]
+}

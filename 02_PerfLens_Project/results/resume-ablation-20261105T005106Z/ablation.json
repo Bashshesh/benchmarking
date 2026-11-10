@@ -1,0 +1,6 @@
+{
+  "parent": "684531c13877fbdacccf02262b32e6faf889d76f",
+  "original_sha256": "19b2adf46784317e5578c49b3182d865add4d36fcda16f3668b87430131c2ec0",
+  "ablated_sha256": "f9cba8a1fde4c8f3c8852ba63d9e0890ec607d012090e1174ae363bec059a63d",
+  "intervention": "remove only MAX-value early-return guard in BitmapContainer.rank; private experimental copy, upstream untouched"
+}

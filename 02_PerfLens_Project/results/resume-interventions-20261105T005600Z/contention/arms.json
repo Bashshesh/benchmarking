@@ -1,0 +1,8 @@
+{
+  "arms": [
+    "reference",
+    "candidate"
+  ],
+  "case": "contention",
+  "method": "same-v-clean"
+}

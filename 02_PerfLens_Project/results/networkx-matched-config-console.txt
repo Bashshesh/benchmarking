@@ -1,0 +1,65 @@
+Experiment: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\experiments\20261029_170443_066658Z
+  Round  1/20 | 6da4704cbf | 0.515 ms
+  Round  1/20 | 87b57851e9 | 0.506 ms
+  Round  2/20 | 6da4704cbf | 0.541 ms
+  Round  2/20 | 87b57851e9 | 0.521 ms
+  Round  3/20 | 87b57851e9 | 0.521 ms
+  Round  3/20 | 6da4704cbf | 0.513 ms
+  Round  4/20 | 6da4704cbf | 0.515 ms
+  Round  4/20 | 87b57851e9 | 0.523 ms
+  Round  5/20 | 6da4704cbf | 0.513 ms
+  Round  5/20 | 87b57851e9 | 0.546 ms
+  Round  6/20 | 6da4704cbf | 0.511 ms
+  Round  6/20 | 87b57851e9 | 0.666 ms
+  Round  7/20 | 6da4704cbf | 0.591 ms
+  Round  7/20 | 87b57851e9 | 0.517 ms
+  Round  8/20 | 6da4704cbf | 0.512 ms
+  Round  8/20 | 87b57851e9 | 0.511 ms
+  Round  9/20 | 87b57851e9 | 0.517 ms
+  Round  9/20 | 6da4704cbf | 0.522 ms
+  Round 10/20 | 6da4704cbf | 0.517 ms
+  Round 10/20 | 87b57851e9 | 0.517 ms
+  Round 11/20 | 6da4704cbf | 0.514 ms
+  Round 11/20 | 87b57851e9 | 0.509 ms
+  Round 12/20 | 6da4704cbf | 0.523 ms
+  Round 12/20 | 87b57851e9 | 0.512 ms
+  Round 13/20 | 6da4704cbf | 0.518 ms
+  Round 13/20 | 87b57851e9 | 0.507 ms
+  Round 14/20 | 6da4704cbf | 0.514 ms
+  Round 14/20 | 87b57851e9 | 0.533 ms
+  Round 15/20 | 6da4704cbf | 0.513 ms
+  Round 15/20 | 87b57851e9 | 0.511 ms
+  Round 16/20 | 6da4704cbf | 0.502 ms
+  Round 16/20 | 87b57851e9 | 0.512 ms
+  Round 17/20 | 87b57851e9 | 0.509 ms
+  Round 17/20 | 6da4704cbf | 0.519 ms
+  Round 18/20 | 6da4704cbf | 0.510 ms
+  Round 18/20 | 87b57851e9 | 0.506 ms
+  Round 19/20 | 87b57851e9 | 0.535 ms
+  Round 19/20 | 6da4704cbf | 0.512 ms
+  Round 20/20 | 87b57851e9 | 0.538 ms
+  Round 20/20 | 6da4704cbf | 0.516 ms
+# NetworkX benchmark report
+
+| Commit | N | Mean (ms) | Median (ms) | SD (ms) | CV (%) |
+|---|---:|---:|---:|---:|---:|
+| 87b57851e9 | 20 | 0.5258 | 0.5166 | 0.0350 | 6.65 |
+| 6da4704cbf | 20 | 0.5196 | 0.5145 | 0.0185 | 3.56 |
+
+Relative mean change: -1.19%
+95% confidence interval of change: [-4.75%, +1.82%]
+Statistical direction (CI vs zero): uncertain
+Practical threshold: 5%
+Decision: **within_threshold**
+
+Positive changes mean slower execution. Regression requires the entire CI above the threshold.
+Within-threshold describes this interval, not proof of equal performance.
+The percentile bootstrap is approximate. Rounds may remain correlated; no correction for multiple experiments.
+Confirm flagged changes in a separate preplanned run on a quiet machine.
+One observation is a batch average from one fresh process, not independent loop timings.
+CV is SD / mean; it describes variation, not statistical significance.
+Configuration: repeats=20, loops=200, warmups=3, grid=35 x 35
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+Platform: Windows-11-10.0.26200-SP0
+
+Saved: C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\experiments\20261029_170443_066658Z\report.md

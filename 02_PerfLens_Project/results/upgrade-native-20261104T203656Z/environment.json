@@ -1,0 +1,59 @@
+{
+  "role": "office Windows native",
+  "physical_host": "same office context",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "node_sha256": "b540dec3af6a61f3b1c00b5fd737cd7bbb6778329abd9abc3472a5782326b6c8",
+  "git_revision": "760f405049579182a1cc0b5350f529a9747a2108",
+  "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "java": "java version \"21.0.8\" 2025-07-15 LTS\nJava(TM) SE Runtime Environment (build 21.0.8+12-LTS-250)\nJava HotSpot(TM) 64-Bit Server VM (build 21.0.8+12-LTS-250, mixed mode, sharing)\n",
+  "java_classes": {
+    "MetricsBench.class": "55a503076827eb90d7e2f765e3423abd8dcc4e9655af0ea549f3d0b63a92f57a",
+    "SearchBench.class": "62273b80844cb11e2c60da42e01bbd98b8f3b780b26159371d606f83dc936a09"
+  },
+  "probe": {
+    "cpu_frequency_mhz": [
+      {
+        "current": 1400.0,
+        "min": 0.0,
+        "max": 1400.0
+      }
+    ],
+    "system_cpu_times": {
+      "user": 42497.046875,
+      "system": 43227.29687500093,
+      "idle": 6502427.515624999,
+      "interrupt": 3079.234375,
+      "dpc": 2529.890625
+    },
+    "system_context_switches": 811999122,
+    "limitation": "system-wide/coarse observations; cannot attribute all scheduling or frequency changes to workload",
+    "thermal_sensor": "not collected",
+    "hardware_counters": "not available in this native collector"
+  }
+}

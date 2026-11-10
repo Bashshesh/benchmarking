@@ -1,0 +1,6 @@
+adapter_java_algorithm: pair 1/5
+adapter_java_algorithm: pair 2/5
+adapter_java_algorithm: pair 3/5
+adapter_java_algorithm: pair 4/5
+adapter_java_algorithm: pair 5/5
+results\upgrade-adapter-20261104T204540Z\measurement {'change_percent': -95.19680916306466, 'ci95_percent': [-95.5198235429276, -94.86739307729219], 'statistical_direction': 'faster', 'threshold_percent': 5, 'decision': 'improvement'}

@@ -1,0 +1,12 @@
+{
+  "anchors": [
+    "e140aee9358b1e33be6e5b0cd8f043daef05299a",
+    "ef131a71e0aa6cd67b4ea649c957b1cd4c52b141"
+  ],
+  "original_pair": [
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+    "684531c13877fbdacccf02262b32e6faf889d76f"
+  ],
+  "scope": "Four nearby pinned source revisions; not independent release/JDK portability or a second real optimization case",
+  "image": "sha256:de18ceeaafec940e4e89c36146b52c266f3dc6daef790489e43a9aa8d655cc56"
+}

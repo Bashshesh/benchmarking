@@ -1,0 +1,20 @@
+{
+  "command": [
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "-Xms512m",
+    "-Xmx512m",
+    "-Djava.io.tmpdir=C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/.tmp/final845/final-roaring-20261105T225902Z/native-scratch-guarded",
+    "-Djava.security.manager=perflens.finalstudy.LoopbackGuard",
+    "-Djava.security.policy==file:///C:/Users/solju/.codex/.chatgpt-projects/g-p-6aa88b5fe0848191babff11a620c93d0/PerfLens/results/final-roaring-20261105T225902Z/windows-native/benchmark.policy",
+    "-Djmh.link.address=127.0.0.1",
+    "-cp",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\2dfd0fb99446\\native-guard;C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\2dfd0fb99446\\probe",
+    "perflens.finalstudy.DeniedProbe",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\native-scratch-guarded\\permission-marker.txt",
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe"
+  ],
+  "returncode": 0,
+  "stdout": "denied (\"java.io.FilePermission\" \"C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\native-scratch-guarded\\permission-marker.txt\" \"read\")\ndenied (\"java.io.FilePermission\" \"C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.tmp\\final845\\final-roaring-20261105T225902Z\\native-scratch-guarded\\permission-marker.txt\" \"write\")\ndenied (\"java.io.FilePermission\" \"C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" \"execute\")\ndenied (\"java.net.SocketPermission\" \"127.0.0.1:9\" \"connect,resolve\")\ndenied (\"java.lang.RuntimePermission\" \"getenv.*\")\ndenied (\"java.lang.RuntimePermission\" \"setSecurityManager\")\ndenied (\"java.lang.RuntimePermission\" \"loadLibrary.*\")\ndenied (\"java.lang.reflect.ReflectPermission\" \"suppressAccessChecks\")\n",
+  "stderr": "WARNING: A command line option has enabled the Security Manager\nWARNING: The Security Manager is deprecated and will be removed in a future release\n",
+  "elapsed_seconds": 0.7189999999245629
+}

@@ -1,0 +1,10 @@
+{
+  "exploratory_candidate": "tier1",
+  "decision": {
+    "selected": "default",
+    "reason": "no confirmed practically relevant improvement"
+  },
+  "cpu_mean_ratio": 1.0956284153005464,
+  "confirmation_seed": 420,
+  "threshold": 5
+}

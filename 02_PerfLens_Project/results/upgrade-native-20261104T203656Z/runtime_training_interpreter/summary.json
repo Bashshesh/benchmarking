@@ -1,0 +1,85 @@
+{
+  "comparison": {
+    "change_percent": 503.575883627213,
+    "ci95_percent": [
+      480.0776111440165,
+      525.5197418235783
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "summaries": {
+    "default": {
+      "n": 8,
+      "mean_seconds": 0.0003138989875,
+      "median_seconds": 0.0003137989,
+      "sd_seconds": 1.269816994187267e-05,
+      "variance_seconds2": 1.6124351987267857e-10,
+      "cv_percent": 4.045304523918756
+    },
+    "interpreter": {
+      "n": 8,
+      "mean_seconds": 0.0018946185875,
+      "median_seconds": 0.0018797216,
+      "sd_seconds": 9.898506897109982e-05,
+      "variance_seconds2": 9.798043879213387e-09,
+      "cv_percent": 5.224538048141566
+    }
+  },
+  "target": null,
+  "secondary_metrics": {
+    "default": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.0002841796875,
+        "min": 0.000265625,
+        "max": 0.0003046875
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.152,
+        "min": 0.152,
+        "max": 0.152
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 3190.309409111154,
+        "min": 2982.06407740007,
+        "max": 3420.236410160907
+      }
+    },
+    "interpreter": {
+      "process_cpu_seconds_per_operation": {
+        "n": 8,
+        "mean": 0.00169140625,
+        "min": 0.001515625,
+        "max": 0.0017890625
+      },
+      "thread_allocated_bytes_per_operation": {
+        "n": 8,
+        "mean": 0.08,
+        "min": 0.08,
+        "max": 0.08
+      },
+      "throughput_ops_per_second": {
+        "n": 8,
+        "mean": 529.0760304943595,
+        "min": 486.99023840241875,
+        "max": 576.7500629955256
+      }
+    }
+  },
+  "dependence": {
+    "default": {
+      "lag_one_descriptive": -0.23364667044971324,
+      "second_half_change_percent": 1.7346974516050606,
+      "n": 8
+    },
+    "interpreter": {
+      "lag_one_descriptive": -0.23514338613863267,
+      "second_half_change_percent": 0.314836463666901,
+      "n": 8
+    }
+  }
+}

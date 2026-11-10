@@ -1,0 +1,31 @@
+{
+  "comparison": {
+    "change_percent": 97.44372369135925,
+    "ci95_percent": [
+      78.30766913227897,
+      117.74377089275943
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "summaries": {
+    "reference": {
+      "n": 20,
+      "mean_seconds": 0.009299424999626353,
+      "median_seconds": 0.008770319999894128,
+      "sd_seconds": 0.0014569083330367022,
+      "variance_seconds2": 2.122581890871782e-06,
+      "cv_percent": 15.66664963796407
+    },
+    "redundant_BFS": {
+      "n": 20,
+      "mean_seconds": 0.018361131001147443,
+      "median_seconds": 0.017072549997828902,
+      "sd_seconds": 0.003349230250941846,
+      "variance_seconds2": 1.121734327382398e-05,
+      "cv_percent": 18.24087116818971
+    }
+  },
+  "target": null
+}

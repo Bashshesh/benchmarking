@@ -1,0 +1,76 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "perflens.finalstudy.LazyRank.rankBatch",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/opt/java/openjdk/bin/java",
+        "jvmArgs" : [
+            "-Xms512m",
+            "-Xmx512m"
+        ],
+        "jdkVersion" : "21.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.7+6-LTS",
+        "warmupIterations" : 30,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 20,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "repairs" : "true",
+            "scenario" : "cached"
+        },
+        "primaryMetric" : {
+            "score" : 8.2837890625,
+            "scoreError" : 2.9421191301818173,
+            "scoreConfidence" : [
+                5.341669932318183,
+                11.225908192681818
+            ],
+            "scorePercentiles" : {
+                "0.0" : 3.84765625,
+                "50.0" : 9.109375,
+                "90.0" : 12.695312500000002,
+                "95.0" : 16.582421874999998,
+                "99.0" : 16.78125,
+                "99.9" : 16.78125,
+                "99.99" : 16.78125,
+                "99.999" : 16.78125,
+                "99.9999" : 16.78125,
+                "100.0" : 16.78125
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    3.84765625,
+                    10.67578125,
+                    9.3203125,
+                    6.76953125,
+                    16.78125,
+                    11.7109375,
+                    5.8359375,
+                    9.3515625,
+                    10.2890625,
+                    4.1796875,
+                    9.5234375,
+                    5.10546875,
+                    9.21875,
+                    4.171875,
+                    9.58984375,
+                    8.0390625,
+                    9.0,
+                    12.8046875,
+                    4.77734375,
+                    4.68359375
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

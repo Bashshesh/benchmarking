@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pip",
+    "freeze"
+  ],
+  "returncode": 0,
+  "stdout": "contourpy==1.4.0\ncycler==0.12.1\nfonttools==4.68.0\nkiwisolver==1.5.1\nmatplotlib==3.10.7\nnumpy==2.3.4\npackaging==26.3\npillow==13.0.0\npsutil==7.1.2\npyparsing==3.3.3\npython-dateutil==3.0.0\nsix==1.17.0\ntzdata==2026.6\n",
+  "stderr": ""
+}

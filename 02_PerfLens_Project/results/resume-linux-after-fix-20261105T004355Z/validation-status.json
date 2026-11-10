@@ -1,0 +1,8 @@
+{
+  "test_returncodes": [
+    0,
+    0
+  ],
+  "status": "passed",
+  "integration": "functional smoke only; Python constant payload is a protocol fixture, tiny Java timing is not an accuracy or performance claim"
+}

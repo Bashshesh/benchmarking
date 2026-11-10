@@ -1,0 +1,13 @@
+.venv/
+.numpy126/
+.numpy200/
+networkx_repo/
+original/
+archive/
+__pycache__/
+*.pyc
+build/
+.runtime.json
+history.bundle
+package-manifest.json
+.tmp/

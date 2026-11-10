@@ -1,0 +1,143 @@
+{
+  "snapshot_file_hashes_verified": 52,
+  "source_claim": "https://github.com/mattpocock/skills",
+  "source_commit": "not supplied; archive checksums do not authenticate upstream origin",
+  "skills": [
+    {
+      "name": "code-review",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "codebase-design",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "diagnosing-bugs",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "domain-modeling",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "grill-me",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "grilling",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "handoff",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "implement",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "implement-spec",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "research",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "tdd",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    },
+    {
+      "name": "to-spec",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "to-tickets",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "triage",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "wait-what",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": true
+    },
+    {
+      "name": "wizard",
+      "snapshot": true,
+      "installed": [],
+      "missing_relative_links": [],
+      "manual_invocation_only": false
+    }
+  ],
+  "missing_relative_links": [],
+  "tools": {
+    "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+    "bash": "C:\\WINDOWS\\system32\\bash.EXE",
+    "gh": null,
+    "glab": null,
+    "shellcheck": null,
+    "java": "C:\\Program Files\\Java\\jdk-21\\bin\\java.EXE",
+    "javac": "C:\\Program Files\\Java\\jdk-21\\bin\\javac.EXE"
+  }
+}

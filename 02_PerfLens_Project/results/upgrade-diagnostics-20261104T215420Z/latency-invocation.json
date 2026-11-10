@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+    "-cp",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+    "MetricsBench",
+    "optimized",
+    "2000",
+    "100",
+    "latency"
+  ],
+  "returncode": 0,
+  "stderr": ""
+}

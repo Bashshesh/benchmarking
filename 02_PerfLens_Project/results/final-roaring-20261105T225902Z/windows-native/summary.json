@@ -1,0 +1,42 @@
+{
+  "pairs": 10,
+  "forks": 60,
+  "effects": {
+    "rank-max": {
+      "reference_ns": 607.1896375749001,
+      "candidate_ns": 2.775798955141777,
+      "change_percent": -99.54284480772296,
+      "ci95_percent": [
+        -99.5558121678157,
+        -99.52225609537504
+      ],
+      "statistical_direction": "faster",
+      "threshold_percent": 5,
+      "decision": "improvement"
+    },
+    "rank-near": {
+      "reference_ns": 614.7087812401257,
+      "candidate_ns": 648.1954903165082,
+      "change_percent": 5.447572915556154,
+      "ci95_percent": [
+        0.13424399450165936,
+        12.693449866325812
+      ],
+      "statistical_direction": "slower",
+      "threshold_percent": 5,
+      "decision": "inconclusive"
+    },
+    "range": {
+      "reference_ns": 615.0343857302148,
+      "candidate_ns": 12.46992598129421,
+      "change_percent": -97.97248312116908,
+      "ci95_percent": [
+        -98.02140716795029,
+        -97.91810469395095
+      ],
+      "statistical_direction": "faster",
+      "threshold_percent": 5,
+      "decision": "improvement"
+    }
+  }
+}

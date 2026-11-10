@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+    "-B",
+    "upgrade/preserve.py",
+    "--output",
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\results\\upgrade-validation-20261104T221156Z\\preservation"
+  ],
+  "returncode": 0,
+  "stdout": "{\n  \"immutable_original_files_verified\": 542,\n  \"intentional_versioned_changes\": {\n    \"process_control.py\": {\n      \"original_sha256\": \"cef9b1cecc58eedea74391ad5b2c7314b53c0e4a82bcfed5d491b2f24c6c93e7\",\n      \"upgraded_sha256\": \"ccc6b1688d9d5060464759b279bb84d1fe10b78952cf6af9ff811fd1d2e196eb\"\n    },\n    \"tests/test_runner.py\": {\n      \"original_sha256\": \"c860b5deb17a319f0cf5b5c80c6868d6866e3b4c8968e022a55899dda28fe270\",\n      \"upgraded_sha256\": \"38bbfd8c2a6a9dd19c4c39bfba31cc6320a72196ecd529349a75e48856b365b5\"\n    }\n  },\n  \"archived_original_entries_verified\": 1116,\n  \"original_manifest\": \"preserved; describes the pre-upgrade checkpoint\",\n  \"originals_snapshot_sha256\": \"e6fcaf5d450f7872fd4049485258adcf8c8c9c169a18b0fd40acf8a7ab8bf8ab\",\n  \"previous_history\": \"preserved starting Git commit 111accf plus original history.bundle and archive/misc.zip\"\n}\n",
+  "stderr": ""
+}

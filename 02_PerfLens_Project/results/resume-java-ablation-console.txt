@@ -1,0 +1,18 @@
+guard-ablation 1 candidate
+guard-ablation 1 reference
+guard-ablation 2 candidate
+guard-ablation 2 reference
+guard-ablation 3 reference
+guard-ablation 3 candidate
+Traceback (most recent call last):
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 120, in main
+    run(s,sha,out,args,target/(filename+'.command.json'))
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\extend.py", line 16, in run
+    return command(base+args,log,timeout,name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\java\reproduce.py", line 41, in command
+    raise RuntimeError('Command failed; retained '+str(log))
+RuntimeError: Command failed; retained C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\results\resume-ablation-20261105T004520Z\guard-ablation\guard-ablation-4-0.json.command.json

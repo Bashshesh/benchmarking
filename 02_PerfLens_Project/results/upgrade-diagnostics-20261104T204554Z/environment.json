@@ -1,0 +1,252 @@
+{
+  "evidence_class": "instrumented diagnostics, not clean performance observations",
+  "topology": {
+    "status": "observed",
+    "cpu_sets": [
+      {
+        "id": 256,
+        "group": 0,
+        "logical": 0,
+        "core": 0,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 257,
+        "group": 0,
+        "logical": 1,
+        "core": 0,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 258,
+        "group": 0,
+        "logical": 2,
+        "core": 2,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 259,
+        "group": 0,
+        "logical": 3,
+        "core": 3,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 260,
+        "group": 0,
+        "logical": 4,
+        "core": 4,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 261,
+        "group": 0,
+        "logical": 5,
+        "core": 5,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 0
+      },
+      {
+        "id": 262,
+        "group": 0,
+        "logical": 6,
+        "core": 6,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 263,
+        "group": 0,
+        "logical": 7,
+        "core": 7,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 264,
+        "group": 0,
+        "logical": 8,
+        "core": 8,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 265,
+        "group": 0,
+        "logical": 9,
+        "core": 9,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 266,
+        "group": 0,
+        "logical": 10,
+        "core": 10,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 267,
+        "group": 0,
+        "logical": 11,
+        "core": 10,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 268,
+        "group": 0,
+        "logical": 12,
+        "core": 12,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 269,
+        "group": 0,
+        "logical": 13,
+        "core": 12,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 270,
+        "group": 0,
+        "logical": 14,
+        "core": 14,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 271,
+        "group": 0,
+        "logical": 15,
+        "core": 14,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 272,
+        "group": 0,
+        "logical": 16,
+        "core": 16,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 273,
+        "group": 0,
+        "logical": 17,
+        "core": 16,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 274,
+        "group": 0,
+        "logical": 18,
+        "core": 18,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 1
+      },
+      {
+        "id": 275,
+        "group": 0,
+        "logical": 19,
+        "core": 18,
+        "llc": 0,
+        "numa": 0,
+        "efficiency_class": 1,
+        "flags": 0
+      },
+      {
+        "id": 276,
+        "group": 0,
+        "logical": 20,
+        "core": 20,
+        "llc": 20,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      },
+      {
+        "id": 277,
+        "group": 0,
+        "logical": 21,
+        "core": 21,
+        "llc": 20,
+        "numa": 0,
+        "efficiency_class": 0,
+        "flags": 1
+      }
+    ],
+    "source": "Windows GetSystemCpuSetInformation",
+    "interpretation": "higher efficiency_class means faster/less power-efficient; index is not frequency"
+  },
+  "system_probe": {
+    "cpu_frequency_mhz": [
+      {
+        "current": 1400.0,
+        "min": 0.0,
+        "max": 1400.0
+      }
+    ],
+    "system_cpu_times": {
+      "user": 43126.98437499999,
+      "system": 43567.828125,
+      "idle": 6513204.15625,
+      "interrupt": 3100.390625,
+      "dpc": 2541.53125
+    },
+    "system_context_switches": 817418876,
+    "limitation": "system-wide/coarse observations; cannot attribute all scheduling or frequency changes to workload",
+    "thermal_sensor": "not collected",
+    "hardware_counters": "not available in this native collector"
+  },
+  "java": "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+  "source_sha256": "64af358b33069925fee94304d11a0c056d1bb97594a83058233716a1220d41d9"
+}

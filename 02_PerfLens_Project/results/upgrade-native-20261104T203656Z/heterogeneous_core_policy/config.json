@@ -1,0 +1,37 @@
+{
+  "name": "heterogeneous_core_policy",
+  "arms": [
+    {
+      "name": "higher_class",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "optimized",
+        "2000",
+        "100"
+      ],
+      "cpu": 0
+    },
+    {
+      "name": "lower_class",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "optimized",
+        "2000",
+        "100"
+      ],
+      "cpu": 2
+    }
+  ],
+  "seed": 436,
+  "rounds": 10,
+  "threshold": 5,
+  "timeout": 120,
+  "phase": "confirmatory",
+  "target": ">5% internal-time improvement against reference, with observed CPU ratio <=1.10 for runtime recommendation"
+}

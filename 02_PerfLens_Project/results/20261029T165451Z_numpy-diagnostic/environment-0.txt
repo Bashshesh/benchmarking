@@ -1,0 +1,92 @@
+{"version": "1.26.4", "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]", "default_dtype": "int32", "cpu_features": {"MMX": true, "SSE": true, "SSE2": true, "SSE3": true, "SSSE3": true, "SSE41": true, "POPCNT": true, "SSE42": true, "AVX": true, "F16C": true, "XOP": false, "FMA4": false, "FMA3": true, "AVX2": true, "AVX512F": false, "AVX512CD": false, "AVX512ER": false, "AVX512PF": false, "AVX5124FMAPS": false, "AVX5124VNNIW": false, "AVX512VPOPCNTDQ": false, "AVX512VL": false, "AVX512BW": false, "AVX512DQ": false, "AVX512VNNI": false, "AVX512IFMA": false, "AVX512VBMI": false, "AVX512VBMI2": false, "AVX512BITALG": false, "AVX512FP16": false, "AVX512_KNL": false, "AVX512_KNM": false, "AVX512_SKX": false, "AVX512_CLX": false, "AVX512_CNL": false, "AVX512_ICL": false, "AVX512_SPR": false, "VSX": false, "VSX2": false, "VSX3": false, "VSX4": false, "VX": false, "VXE": false, "VXE2": false, "NEON": false, "NEON_FP16": false, "NEON_VFPV4": false, "ASIMD": false, "FPHP": false, "ASIMDHP": false, "ASIMDDP": false, "ASIMDFHM": false}}
+{
+  "Compilers": {
+    "c": {
+      "name": "msvc",
+      "linker": "link",
+      "version": "19.29.30153",
+      "commands": "cl"
+    },
+    "cython": {
+      "name": "cython",
+      "linker": "cython",
+      "version": "3.0.8",
+      "commands": "cython"
+    },
+    "c++": {
+      "name": "msvc",
+      "linker": "link",
+      "version": "19.29.30153",
+      "commands": "cl"
+    }
+  },
+  "Machine Information": {
+    "host": {
+      "cpu": "x86_64",
+      "family": "x86_64",
+      "endian": "little",
+      "system": "windows"
+    },
+    "build": {
+      "cpu": "x86_64",
+      "family": "x86_64",
+      "endian": "little",
+      "system": "windows"
+    }
+  },
+  "Build Dependencies": {
+    "blas": {
+      "name": "openblas64",
+      "found": true,
+      "version": "0.3.23.dev",
+      "detection method": "pkgconfig",
+      "include directory": "/c/opt/64/include",
+      "lib directory": "/c/opt/64/lib",
+      "openblas configuration": "USE_64BITINT=1 DYNAMIC_ARCH=1 DYNAMIC_OLDER= NO_CBLAS= NO_LAPACK= NO_LAPACKE= NO_AFFINITY=1 USE_OPENMP= SKYLAKEX MAX_THREADS=2",
+      "pc file directory": "C:/opt/64/lib/pkgconfig"
+    },
+    "lapack": {
+      "name": "dep3179274605568",
+      "found": true,
+      "version": "1.26.4",
+      "detection method": "internal",
+      "include directory": "unknown",
+      "lib directory": "unknown",
+      "openblas configuration": "unknown",
+      "pc file directory": "unknown"
+    }
+  },
+  "Python Information": {
+    "path": "C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-g7slqwov\\cp312-win_amd64\\build\\venv\\Scripts\\python.exe",
+    "version": "3.12"
+  },
+  "SIMD Extensions": {
+    "baseline": [
+      "SSE",
+      "SSE2",
+      "SSE3"
+    ],
+    "found": [
+      "SSSE3",
+      "SSE41",
+      "POPCNT",
+      "SSE42",
+      "AVX",
+      "F16C",
+      "FMA3",
+      "AVX2"
+    ],
+    "not found": [
+      "AVX512F",
+      "AVX512CD",
+      "AVX512_SKX",
+      "AVX512_CLX",
+      "AVX512_CNL",
+      "AVX512_ICL"
+    ]
+  }
+}
+
+STDERR:
+C:\Users\admin\Documents\Codex\2026-10-29\referenced-chatgpt-conversation-this-is-an\outputs\PerfLens\.numpy126\Lib\site-packages\numpy\__config__.py:155: UserWarning: Install `pyyaml` for better output
+  warnings.warn("Install `pyyaml` for better output", stacklevel=1)

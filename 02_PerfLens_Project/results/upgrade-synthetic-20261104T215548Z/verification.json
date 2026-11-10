@@ -1,0 +1,6 @@
+{
+  "datasets": 540,
+  "independent_runs_per_cell": 30,
+  "status": "all synthetic raw classifications and counts exactly reproduced",
+  "limitation": "synthetic model only; no real-world detector-accuracy claim"
+}

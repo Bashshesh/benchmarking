@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "commits": [
+    "numpy-1.26.4",
+    "numpy-2.0.0"
+  ],
+  "note": "commits field contains NumPy release/control labels, NOT Git commits",
+  "experiment_kind": "release_comparison",
+  "config": {
+    "old_python": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy126\\Scripts\\python.exe",
+    "new_python": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy200\\Scripts\\python.exe",
+    "repeats": 20,
+    "loops": 100,
+    "warmups": 5,
+    "size": 100000,
+    "threshold": 5,
+    "seed": 42,
+    "control": false
+  },
+  "environments": [
+    {
+      "version": "1.26.4",
+      "executable": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy126\\Scripts\\python.exe",
+      "python": "3.12.14"
+    },
+    {
+      "version": "2.0.0",
+      "executable": "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy200\\Scripts\\python.exe",
+      "python": "3.12.14"
+    }
+  ],
+  "created_utc": "2026-10-29T16:54:17.727969+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "benchmark_sha256": "67e161f64979a3eba92f9c25e55e634f3e30d8b3e356797e293034b29f42c5c3",
+  "measurement": "Randomized paired rounds; one fresh process per observation; per-process batch average; imports and input setup excluded",
+  "bootstrap_samples": 5000,
+  "confidence": 0.95
+}

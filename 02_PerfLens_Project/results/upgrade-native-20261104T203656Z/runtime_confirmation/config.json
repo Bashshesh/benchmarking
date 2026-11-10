@@ -1,0 +1,36 @@
+{
+  "name": "runtime_confirmation",
+  "arms": [
+    {
+      "name": "default",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "optimized",
+        "2000",
+        "100"
+      ]
+    },
+    {
+      "name": "tier1",
+      "command": [
+        "C:\\Program Files\\Java\\jdk-21\\bin\\java.exe",
+        "-XX:TieredStopAtLevel=1",
+        "-cp",
+        "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\build\\upgrade",
+        "MetricsBench",
+        "optimized",
+        "2000",
+        "100"
+      ]
+    }
+  ],
+  "seed": 420,
+  "rounds": 10,
+  "threshold": 5,
+  "timeout": 120,
+  "phase": "confirmatory",
+  "target": ">5% internal-time improvement against reference, with observed CPU ratio <=1.10 for runtime recommendation"
+}

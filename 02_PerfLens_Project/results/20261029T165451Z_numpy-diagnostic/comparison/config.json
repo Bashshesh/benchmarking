@@ -1,0 +1,27 @@
+{
+  "name": "numpy_fixed_int64",
+  "rounds": 20,
+  "threshold": 5,
+  "seed": 2901,
+  "timeout": 120,
+  "arms": [
+    {
+      "name": "numpy_1_26_4",
+      "command": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy126\\Scripts\\python.exe",
+        "{root}/workloads/numpy_argsort.py",
+        "--dtype",
+        "int64"
+      ]
+    },
+    {
+      "name": "numpy_2_0_0",
+      "command": [
+        "C:\\Users\\admin\\Documents\\Codex\\2026-10-29\\referenced-chatgpt-conversation-this-is-an\\outputs\\PerfLens\\.numpy200\\Scripts\\python.exe",
+        "{root}/workloads/numpy_argsort.py",
+        "--dtype",
+        "int64"
+      ]
+    }
+  ]
+}

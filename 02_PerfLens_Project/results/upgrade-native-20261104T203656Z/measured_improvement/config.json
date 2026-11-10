@@ -1,0 +1,29 @@
+{
+  "name": "measured_improvement",
+  "arms": [
+    {
+      "name": "extra_reference",
+      "command": [
+        "{python}",
+        "{root}/upgrade/workloads/redundant.py",
+        "--extra",
+        ".5"
+      ]
+    },
+    {
+      "name": "removed_work",
+      "command": [
+        "{python}",
+        "{root}/upgrade/workloads/redundant.py",
+        "--extra",
+        "0"
+      ]
+    }
+  ],
+  "seed": 450,
+  "rounds": 10,
+  "threshold": 5,
+  "timeout": 120,
+  "phase": "confirmatory",
+  "target": ">5% internal-time improvement against reference, with observed CPU ratio <=1.10 for runtime recommendation"
+}

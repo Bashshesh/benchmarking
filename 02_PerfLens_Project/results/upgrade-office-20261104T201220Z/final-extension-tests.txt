@@ -1,0 +1,28 @@
+test_missing_and_modified_originals_do_not_pass_audit (test_archive.ArchiveTests.test_missing_and_modified_originals_do_not_pass_audit) ... ok
+test_build_timeout_is_retained (test_build_adapter.BuildAdapterTests.test_build_timeout_is_retained) ... ok
+test_success_build_and_failed_build_receipts (test_build_adapter.BuildAdapterTests.test_success_build_and_failed_build_receipts) ... ok
+test_search_variants_and_runtime_modes_match_known_membership_count (test_java.JavaTests.test_search_variants_and_runtime_modes_match_known_membership_count) ... ok
+test_metrics_and_latency_trace_keep_independent_membership_result (test_metrics_java.MetricsJavaTests.test_metrics_and_latency_trace_keep_independent_membership_result) ... ok
+test_successful_parent_cannot_leave_detached_descendant_running (test_process_cleanup.JobLifetimeTests.test_successful_parent_cannot_leave_detached_descendant_running) ... ok
+test_different_timing_boundaries_are_rejected (test_runner.RunnerTests.test_different_timing_boundaries_are_rejected) ... ok
+test_exited_parent_does_not_leave_inherited_output_pipe_hanging (test_runner.RunnerTests.test_exited_parent_does_not_leave_inherited_output_pipe_hanging) ... ok
+test_external_protocol_and_bad_payload (test_runner.RunnerTests.test_external_protocol_and_bad_payload) ... ok
+test_failure_status_is_saved_without_summary (test_runner.RunnerTests.test_failure_status_is_saved_without_summary) ... ok
+test_incomplete_duplicate_and_wrong_results_refuse_inference (test_runner.RunnerTests.test_incomplete_duplicate_and_wrong_results_refuse_inference) ... ok
+test_invalid_config (test_runner.RunnerTests.test_invalid_config) ... ok
+test_java_setup_failure_is_recorded (test_runner.RunnerTests.test_java_setup_failure_is_recorded) ... ok
+test_known_regression_and_absolute_target_are_separate (test_runner.RunnerTests.test_known_regression_and_absolute_target_are_separate) ... ok
+test_no_regression_can_still_miss_target (test_runner.RunnerTests.test_no_regression_can_still_miss_target) ... ok
+test_timeout_kills_descendant_and_retains_partial_output (test_runner.RunnerTests.test_timeout_kills_descendant_and_retains_partial_output) ... ok
+test_exact_two_trial_intervals_match_closed_form_bounds (test_statistics.StatisticalTests.test_exact_two_trial_intervals_match_closed_form_bounds) ... ok
+test_drift_diagnostic_does_not_claim_independence (test_upgrade.UpgradeTests.test_drift_diagnostic_does_not_claim_independence) ... ok
+test_one_jmh_fork_is_one_sample_not_each_iteration (test_upgrade.UpgradeTests.test_one_jmh_fork_is_one_sample_not_each_iteration) ... ok
+test_recommendation_requires_correctness_confirmation_and_resource_evidence (test_upgrade.UpgradeTests.test_recommendation_requires_correctness_confirmation_and_resource_evidence) ... ok
+test_redundant_workload_has_independent_known_results (test_upgrade.UpgradeTests.test_redundant_workload_has_independent_known_results) ... ok
+test_unknown_or_instrumenting_configuration_is_rejected (test_upgrade.UpgradeTests.test_unknown_or_instrumenting_configuration_is_rejected) ... ok
+test_every_grid_distance_matches_independent_oracle (test_workloads.WorkloadTests.test_every_grid_distance_matches_independent_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 16.501s
+
+OK

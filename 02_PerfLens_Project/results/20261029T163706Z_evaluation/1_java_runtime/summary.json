@@ -1,0 +1,31 @@
+{
+  "comparison": {
+    "change_percent": -82.37977257238185,
+    "ci95_percent": [
+      -82.72204778129358,
+      -81.99955990688557
+    ],
+    "statistical_direction": "faster",
+    "threshold_percent": 5,
+    "decision": "improvement"
+  },
+  "summaries": {
+    "interpreter": {
+      "n": 20,
+      "mean_seconds": 0.0009698910000000001,
+      "median_seconds": 0.00097205,
+      "sd_seconds": 4.183366837218181e-05,
+      "variance_seconds2": 1.7500558094736844e-09,
+      "cv_percent": 4.313233999715618
+    },
+    "default_JVM": {
+      "n": 20,
+      "mean_seconds": 0.00017089700000000001,
+      "median_seconds": 0.00017073000000000001,
+      "sd_seconds": 3.917503367143283e-06,
+      "variance_seconds2": 1.5346832631578955e-11,
+      "cv_percent": 2.292318394789424
+    }
+  },
+  "target": null
+}

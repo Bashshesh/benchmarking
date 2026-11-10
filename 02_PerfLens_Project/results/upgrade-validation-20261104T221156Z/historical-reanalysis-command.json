@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.venv\\Scripts\\python.exe",
+    "-B",
+    "-c",
+    "import audit_original as a; from pathlib import Path; old=a.write_json; a.write_json=lambda p,v: old(Path('C:\\\\Users\\\\solju\\\\.codex\\\\.chatgpt-projects\\\\g-p-6aa88b5fe0848191babff11a620c93d0\\\\PerfLens\\\\results\\\\upgrade-validation-20261104T221156Z\\\\original-audit.json'),v); a.main()"
+  ],
+  "returncode": 0,
+  "stdout": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\results\\original-audit.json\n",
+  "stderr": ""
+}

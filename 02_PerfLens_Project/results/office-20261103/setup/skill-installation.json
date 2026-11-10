@@ -1,0 +1,91 @@
+[
+  {
+    "name": "code-review",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\code-review"
+  },
+  {
+    "name": "codebase-design",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\codebase-design"
+  },
+  {
+    "name": "diagnosing-bugs",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\diagnosing-bugs"
+  },
+  {
+    "name": "domain-modeling",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\domain-modeling"
+  },
+  {
+    "name": "grill-me",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\grill-me"
+  },
+  {
+    "name": "grilling",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\grilling"
+  },
+  {
+    "name": "handoff",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\handoff"
+  },
+  {
+    "name": "implement",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\implement"
+  },
+  {
+    "name": "implement-spec",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\implement-spec"
+  },
+  {
+    "name": "improve-codebase-architecture",
+    "status": "held: CDN and loose Mermaid template; approval pending"
+  },
+  {
+    "name": "research",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\research"
+  },
+  {
+    "name": "setup-matt-pocock-skills",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\setup-matt-pocock-skills"
+  },
+  {
+    "name": "tdd",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\tdd"
+  },
+  {
+    "name": "to-spec",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\to-spec"
+  },
+  {
+    "name": "to-tickets",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\to-tickets"
+  },
+  {
+    "name": "triage",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\triage"
+  },
+  {
+    "name": "wait-what",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\wait-what"
+  },
+  {
+    "name": "wizard",
+    "status": "installed; byte equality verified",
+    "path": "C:\\Users\\solju\\.codex\\.chatgpt-projects\\g-p-6aa88b5fe0848191babff11a620c93d0\\PerfLens\\.agents\\skills\\wizard"
+  }
+]

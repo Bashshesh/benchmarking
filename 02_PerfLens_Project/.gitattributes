@@ -1,0 +1,7 @@
+# Keep evidence bytes stable across Git checkouts on different operating systems.
+results/** -text
+experiments/** -text
+numpy-experiment/experiments/** -text
+archive/** -text
+configs/** -text
+docs/EXPERIMENT_PLAN.md -text

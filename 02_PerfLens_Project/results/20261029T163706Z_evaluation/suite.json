@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-29T16:37:06.906564+00:00",
+  "experiments": [
+    "1_control",
+    "1_cpu_contention",
+    "1_cpu_mitigation",
+    "1_injection",
+    "1_java_optimization",
+    "1_java_runtime",
+    "1_java_warmup",
+    "1_python_optimization",
+    "1_python_scaling",
+    "2_control",
+    "2_cpu_contention",
+    "2_cpu_mitigation",
+    "2_injection",
+    "2_java_optimization",
+    "2_java_runtime",
+    "2_java_warmup",
+    "2_python_optimization"
+  ],
+  "finished_utc": "2026-10-29T16:51:50.656955+00:00"
+}

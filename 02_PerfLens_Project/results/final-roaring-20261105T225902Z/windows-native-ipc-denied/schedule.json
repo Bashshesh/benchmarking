@@ -1,0 +1,122 @@
+[
+  {
+    "round": 1,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-near",
+      "range",
+      "rank-max"
+    ]
+  },
+  {
+    "round": 2,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-max",
+      "range",
+      "rank-near"
+    ]
+  },
+  {
+    "round": 3,
+    "shas": [
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+      "684531c13877fbdacccf02262b32e6faf889d76f"
+    ],
+    "workloads": [
+      "rank-max",
+      "rank-near",
+      "range"
+    ]
+  },
+  {
+    "round": 4,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-max",
+      "range",
+      "rank-near"
+    ]
+  },
+  {
+    "round": 5,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-max",
+      "range",
+      "rank-near"
+    ]
+  },
+  {
+    "round": 6,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-near",
+      "rank-max",
+      "range"
+    ]
+  },
+  {
+    "round": 7,
+    "shas": [
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+      "684531c13877fbdacccf02262b32e6faf889d76f"
+    ],
+    "workloads": [
+      "rank-near",
+      "rank-max",
+      "range"
+    ]
+  },
+  {
+    "round": 8,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "range",
+      "rank-max",
+      "rank-near"
+    ]
+  },
+  {
+    "round": 9,
+    "shas": [
+      "684531c13877fbdacccf02262b32e6faf889d76f",
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145"
+    ],
+    "workloads": [
+      "rank-max",
+      "range",
+      "rank-near"
+    ]
+  },
+  {
+    "round": 10,
+    "shas": [
+      "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+      "684531c13877fbdacccf02262b32e6faf889d76f"
+    ],
+    "workloads": [
+      "rank-max",
+      "rank-near",
+      "range"
+    ]
+  }
+]

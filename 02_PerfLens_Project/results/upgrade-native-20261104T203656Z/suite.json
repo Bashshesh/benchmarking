@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "experiments": [
+    "runtime_training_tier1",
+    "runtime_training_interpreter",
+    "runtime_confirmation",
+    "algorithm_resource_tradeoff",
+    "same_class_contention_mitigation",
+    "heterogeneous_core_policy",
+    "measured_extra_0_441",
+    "measured_extra_0p01_441",
+    "measured_extra_0p05_441",
+    "measured_extra_0p15_441",
+    "measured_extra_0p5_441",
+    "measured_extra_0_442",
+    "measured_extra_0p01_442",
+    "measured_extra_0p05_442",
+    "measured_extra_0p15_442",
+    "measured_extra_0p5_442",
+    "measured_extra_0_443",
+    "measured_extra_0p01_443",
+    "measured_extra_0p05_443",
+    "measured_extra_0p15_443",
+    "measured_extra_0p5_443",
+    "measured_improvement"
+  ],
+  "plan": {
+    "training_settings": [
+      "tier1",
+      "interpreter"
+    ],
+    "training_pairs": 8,
+    "confirmation_pairs": 10,
+    "measured_control_extra": [
+      0,
+      0.01,
+      0.05,
+      0.15,
+      0.5
+    ],
+    "measured_seeds": [
+      441,
+      442,
+      443
+    ],
+    "measured_pairs": 5
+  },
+  "started_utc": "2026-11-04T20:36:56.975977+00:00",
+  "finished_utc": "2026-11-04T20:44:05.505767+00:00"
+}

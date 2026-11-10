@@ -1,0 +1,13 @@
+{
+  "seconds": 0.000207347135,
+  "checksum": 1000,
+  "valid": true,
+  "process_cpu_seconds_per_operation": 0.0002125,
+  "thread_allocated_bytes_per_operation": 0.008,
+  "throughput_ops_per_second": 4822.83008154417,
+  "loops": 20000,
+  "warmups": 200,
+  "latency_diagnostic": false,
+  "latencies": null,
+  "latency_nanoseconds": null
+}

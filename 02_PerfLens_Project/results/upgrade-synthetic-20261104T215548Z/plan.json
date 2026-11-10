@@ -1,0 +1,24 @@
+{
+  "evidence_class": "synthetic distributional study; NOT benchmark observations",
+  "effects": [
+    0,
+    0.02,
+    0.05,
+    0.1,
+    0.3,
+    -0.15
+  ],
+  "cvs": [
+    0.01,
+    0.05,
+    0.2
+  ],
+  "runs": 30,
+  "pairs": 20,
+  "seed_base": 831000,
+  "bootstrap_samples": 5000,
+  "threshold": 5,
+  "data_generating_process": "Independent lognormal arm residuals around common lognormal pair factor; arithmetic population means ratio 1+effect; separate generation/bootstrap PRNG seeds",
+  "boundary": "effect .05 is a threshold-boundary case, excluded from binary truth counts",
+  "analyzer_sha256": "d9dd066508052afe16aacbf343e6fdbd460ffdbbdfca3d855c2f3c7398b34b5e"
+}

@@ -1,0 +1,82 @@
+{
+  "archive_hashes_verified": true,
+  "extracted_tree_complete": true,
+  "zip_file_entries": 1116,
+  "experiments": [
+    {
+      "folder": "original\\misc\\experiments\\20261018_175350_179456Z",
+      "pairs": 20,
+      "comparison": {
+        "change_percent": 0.5599102932993372,
+        "ci95_percent": [
+          -2.714843512454901,
+          4.246541537700477
+        ],
+        "statistical_direction": "uncertain",
+        "threshold_percent": 5,
+        "decision": "within_threshold"
+      },
+      "status": "saved-data analysis exactly reproduced; not a fresh timing reproduction"
+    },
+    {
+      "folder": "original\\misc\\experiments\\20261018_180546_746006Z",
+      "pairs": 30,
+      "comparison": {
+        "change_percent": 1.4933427992531945,
+        "ci95_percent": [
+          -3.4035478822161513,
+          7.0265495159537394
+        ],
+        "statistical_direction": "uncertain",
+        "threshold_percent": 5.0,
+        "decision": "inconclusive"
+      },
+      "status": "saved-data analysis exactly reproduced; not a fresh timing reproduction"
+    },
+    {
+      "folder": "original\\misc\\numpy-experiment\\experiments\\20261019_153028_921829Z",
+      "pairs": 5,
+      "comparison": {
+        "change_percent": 195.40397463874072,
+        "ci95_percent": [
+          155.33583272111113,
+          245.14656269605388
+        ],
+        "statistical_direction": "slower",
+        "threshold_percent": 5,
+        "decision": "regression"
+      },
+      "status": "saved-data analysis exactly reproduced; not a fresh timing reproduction"
+    },
+    {
+      "folder": "original\\misc\\numpy-experiment\\experiments\\20261019_153158_134656Z",
+      "pairs": 20,
+      "comparison": {
+        "change_percent": 236.0803107582942,
+        "ci95_percent": [
+          225.4425448897461,
+          247.75239915983315
+        ],
+        "statistical_direction": "slower",
+        "threshold_percent": 5,
+        "decision": "regression"
+      },
+      "status": "saved-data analysis exactly reproduced; not a fresh timing reproduction"
+    },
+    {
+      "folder": "original\\misc\\numpy-experiment\\experiments\\20261019_154453_136230Z",
+      "pairs": 20,
+      "comparison": {
+        "change_percent": 9.932922901630503,
+        "ci95_percent": [
+          -1.7709579024562716,
+          26.21910595247341
+        ],
+        "statistical_direction": "uncertain",
+        "threshold_percent": 5,
+        "decision": "inconclusive"
+      },
+      "status": "saved-data analysis exactly reproduced; not a fresh timing reproduction"
+    }
+  ]
+}

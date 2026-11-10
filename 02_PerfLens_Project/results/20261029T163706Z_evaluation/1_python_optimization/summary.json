@@ -1,0 +1,38 @@
+{
+  "comparison": {
+    "change_percent": -93.63175064047208,
+    "ci95_percent": [
+      -94.00278457788986,
+      -93.0584418429909
+    ],
+    "statistical_direction": "faster",
+    "threshold_percent": 5,
+    "decision": "improvement"
+  },
+  "summaries": {
+    "repeated_BFS": {
+      "n": 20,
+      "mean_seconds": 0.008444015993736684,
+      "median_seconds": 0.008288629981689156,
+      "sd_seconds": 0.0004935325126911857,
+      "variance_seconds2": 2.435743410832754e-07,
+      "cv_percent": 5.844760515106337
+    },
+    "reuse_BFS": {
+      "n": 20,
+      "mean_seconds": 0.000537735994439572,
+      "median_seconds": 0.0005183900007978081,
+      "sd_seconds": 9.125616984383303e-05,
+      "variance_seconds2": 8.327688534566502e-09,
+      "cv_percent": 16.970441031930573
+    }
+  },
+  "target": {
+    "seconds": 0.003,
+    "basis": "observed sample mean; not a latency SLA confidence guarantee",
+    "met": {
+      "repeated_BFS": false,
+      "reuse_BFS": true
+    }
+  }
+}

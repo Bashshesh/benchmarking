@@ -1,0 +1,16 @@
+{
+  "phase": "interventions",
+  "shas": [
+    "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+    "684531c13877fbdacccf02262b32e6faf889d76f"
+  ],
+  "image": "sha256:de18ceeaafec940e4e89c36146b52c266f3dc6daef790489e43a9aa8d655cc56",
+  "environment": "Docker Desktop WSL2 on office physical host; never pooled with native",
+  "rounds": 8,
+  "seed": 84551,
+  "sampling": "one independent JMH fork per arm/round; no flattened iterations",
+  "threshold": 5,
+  "warmup": "3x200ms",
+  "measurement": "3x300ms",
+  "trust": "third-party execution only in restricted Docker containers"
+}

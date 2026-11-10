@@ -1,0 +1,76 @@
+[
+    {
+        "jmhVersion" : "1.37",
+        "benchmark" : "perflens.finalstudy.LazyRank.rankBatch",
+        "mode" : "ss",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "/opt/java/openjdk/bin/java",
+        "jvmArgs" : [
+            "-Xms512m",
+            "-Xmx512m"
+        ],
+        "jdkVersion" : "21.0.7",
+        "vmName" : "OpenJDK 64-Bit Server VM",
+        "vmVersion" : "21.0.7+6-LTS",
+        "warmupIterations" : 30,
+        "warmupTime" : "single-shot",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 20,
+        "measurementTime" : "single-shot",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "repairs" : "false",
+            "scenario" : "cached"
+        },
+        "primaryMetric" : {
+            "score" : 2064.5595703125,
+            "scoreError" : 943.467469052429,
+            "scoreConfidence" : [
+                1121.092101260071,
+                3008.027039364929
+            ],
+            "scorePercentiles" : {
+                "0.0" : 527.890625,
+                "50.0" : 2121.791015625,
+                "90.0" : 3591.2562500000017,
+                "95.0" : 4958.542187499999,
+                "99.0" : 5026.00390625,
+                "99.9" : 5026.00390625,
+                "99.99" : 5026.00390625,
+                "99.999" : 5026.00390625,
+                "99.9999" : 5026.00390625,
+                "100.0" : 5026.00390625
+            },
+            "scoreUnit" : "ns/op",
+            "rawData" : [
+                [
+                    2617.08984375,
+                    2124.66015625,
+                    2288.37890625,
+                    956.09765625,
+                    1819.89453125,
+                    567.52734375,
+                    2235.515625,
+                    2821.63671875,
+                    527.890625,
+                    2118.921875,
+                    2090.15234375,
+                    2144.40234375,
+                    2436.64453125,
+                    2077.96484375,
+                    3676.76953125,
+                    2357.09375,
+                    5026.00390625,
+                    571.078125,
+                    744.68359375,
+                    2088.78515625
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "SMOKE_ONLY_java",
+  "rounds": 5,
+  "threshold": 5,
+  "seed": 7,
+  "arms": [
+    {
+      "name": "A",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "optimized",
+        "3",
+        "7",
+        "1",
+        "0"
+      ]
+    },
+    {
+      "name": "B",
+      "command": [
+        "{java}",
+        "-cp",
+        "{root}/build",
+        "SearchBench",
+        "optimized",
+        "3",
+        "7",
+        "1",
+        "0"
+      ]
+    }
+  ]
+}

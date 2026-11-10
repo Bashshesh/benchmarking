@@ -1,0 +1,6 @@
+{
+  "corpus_folder": "results\\resume-corpus-20261105T005256Z",
+  "sha256": "8d3135f4ecab2eab64021b2c5aee31abdedd345a02653076ccac440619a014cf",
+  "oracle_sha256": "2f04b3a3e24a756912ba8b31fdb77a50d95f0bea2fed121611e52ef6da02ac55",
+  "timing": "Supplemental independent both-boundary validation after retained timings, before final interpretation. Existing JMH setup already validated full blocks."
+}

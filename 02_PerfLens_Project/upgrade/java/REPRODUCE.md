@@ -1,0 +1,31 @@
+# Verified isolated Java case — 5 November 2026
+
+Primary builds/oracles/JMH pilots, upstream Gradle193/195 rank tests, 10-pair original measurements, four JFR diagnostics, 8-pair guard ablation, source-input and noise/runtime extensions now executed. See docs/UPGRADE_RESULTS and the resume_20261105 evidence index for exact outcomes and limitations. Default/lazy-first-call and published corpus generalization must not be inferred. The setup instructions below were originally prepared while Docker was unavailable; their NOT EXECUTED text is historical, superseded only for the explicitly evidenced gates above.
+
+<!-- preserved-before-resume-20261105 -->
+
+## Preserved earlier checkpoint (historical status)
+
+# Isolated Java reproduction setup
+
+**NOT EXECUTED on the current Windows host: Docker unavailable.** These sources and commands are prepared, not a successful compatibility pilot. Do not remove this label until each gate has actual evidence. Never execute the downloaded repository on the unrestricted host.
+
+Primary provisional case: RoaringBitmap PR845, before `2dfd0fb994468c8d416dea3d217dc40ca7d6d145`, after `684531c13877fbdacccf02262b32e6faf889d76f`. Unchanged external harness: `RankBenchmark.java` plus independent `CorrectnessMain.java`. The PR adds a MAX-rank shortcut; unlike PR840, this case does not introduce its own JMH benchmark. Target: cached dense BitmapContainer.rank(65535), negative control rank(65534), public full-container rangeCardinality. Do not claim the first lazy-cardinality repair is O(1). This harness currently covers cached bitmap/range behavior, not all lazy/mappeable variants.
+
+Fixtures are fixed-seed generated bitmaps, not published real-world datasets. Both source snapshots have the same fixture/harness bytes. No optimization implementation is copied into the harness. The benchmark returns the library result for JMH consumption. Boolean membership is checked outside timing for empty/full/random fixtures and boundary limits. This is a genuine API workload but remains a microbenchmark, not application-scale evidence.
+
+## Setup
+
+1. On a machine with a working Docker engine, run `python -B upgrade/java/reproduce.py --prepare`. It downloads the exact GitHub source archives, checks ZIP paths, records URL/archive SHA-256/source hashes, builds the harness image and records its resolved image ID. Public source archives are never executed by this host script.
+2. Run `python -B upgrade/java/reproduce.py --pilot`. It compiles both actual library revisions and the same JMH harness inside restricted containers, runs correctness checks, lists benchmarks, and runs one bounded 1-fork pilot. Compile route is direct javac with base Java8 sources (`-proc:none --release 8`), not the upstream multi-release Gradle artifact. This declared build-route adaptation may omit version-specific optimizations and must remain consistent across both revisions. Any compilation failure halts acceptance; do not infer success from source compatibility.
+3. Only after both pilots pass run `python -B upgrade/java/reproduce.py --measure`. Fixed plan: 10 randomized paired rounds per workload, one JMH fork/invocation, 3 warmups x200ms and 3 measurement iterations x300ms, JMH1.37, JDK21, one thread, heap512m, fixed seeds for between-arm order. Keep the three iterations nested; one JVM fork supplies one sample. The original analyzer receives fork summaries, never flattened iterations. Preserve all JSON/CSV/stdout/errors and setup failures.
+
+The image build needs access to trusted Maven repositories for JMH1.37 and its dependencies. `maven:3.9.9-eclipse-temurin-21` is the preparation tag; the resolved image ID/digest must be recorded and reused, not inferred here. Container execution uses `--init --read-only --network none --cap-drop ALL --security-opt no-new-privileges --pids-limit 256 --memory 2g --cpus 2 --user 10001:10001`, read-only source mount, dedicated output mount and a bounded tmpfs. Never mount the Docker socket, user home, credentials or the whole project. Host timeout must stop its named container as well as the Docker CLI. WSL/Docker timing is a separate execution environment on the physical host, not an independent physical-machine replication. Fixed CPU allocation does not prove physical-core homogeneity.
+
+Use `--pilot` on additional pinned revisions for the C4 3–5-revision gate before broadly accepting cross-version compatibility. The script currently implements the exact pair gate; the third/fourth source anchors are documented in JAVA_CANDIDATES and require a separately recorded compatible-case plan. A different historical API must not silently change this frozen harness.
+
+## Required follow-up diagnostics
+
+Compare rank(MAX), rank(MAX-1), and range boundary effects. The source hypothesis is cached cardinality versus 1024-word bit counting, not a presumed numeric speedup. Run a separate JFR or JMH `-prof gc` diagnostic with the same artifacts, record compilation and allocation evidence, and avoid claiming the diagnostic invocation is a clean timing replicate. Test a lazy-cardinality fixture separately before generalizing to its first query. A measured difference between revisions is correlational unless the boundary/control and further interventions support the mechanism.
+
+Actual source license is the pinned repository license. `real-roaring-datasets` includes third-party-origin inputs; dataset-specific permissions are unresolved in this audit, so no real dataset is currently selected or downloaded. See JAVA_REQUESTED_CASES.md for provenance and the exact unexecuted download proposal. Do not relabel generated fixtures as real data.

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\baseline.py", line 59, in <module>
+    main()
+  File "C:\Users\solju\.codex\.chatgpt-projects\g-p-6aa88b5fe0848191babff11a620c93d0\PerfLens\upgrade\baseline.py", line 34, in main
+    raise RuntimeError('Baseline tests failed: '+name)
+RuntimeError: Baseline tests failed: extension-tests

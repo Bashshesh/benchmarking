@@ -1,0 +1,38 @@
+{
+  "comparison": {
+    "change_percent": -4.605314818704709,
+    "ci95_percent": [
+      -15.241532056608198,
+      8.476109174199408
+    ],
+    "statistical_direction": "uncertain",
+    "threshold_percent": 5,
+    "decision": "inconclusive"
+  },
+  "summaries": {
+    "reference": {
+      "n": 20,
+      "mean_seconds": 0.017342961999820546,
+      "median_seconds": 0.017086050001671536,
+      "sd_seconds": 0.00602294335662601,
+      "variance_seconds2": 3.627584667712539e-05,
+      "cv_percent": 34.72845847605693
+    },
+    "unchanged": {
+      "n": 20,
+      "mean_seconds": 0.016544264000840483,
+      "median_seconds": 0.01666308999992907,
+      "sd_seconds": 0.0052906212150334855,
+      "variance_seconds2": 2.7990672840962394e-05,
+      "cv_percent": 31.978583119591846
+    }
+  },
+  "target": {
+    "seconds": 0.003,
+    "basis": "observed sample mean; not a latency SLA confidence guarantee",
+    "met": {
+      "reference": false,
+      "unchanged": false
+    }
+  }
+}
