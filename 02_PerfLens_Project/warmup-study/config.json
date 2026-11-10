@@ -1,0 +1,7 @@
+{
+  "array_size": 20000,
+  "queries_per_round": 2000,
+  "rounds": 100,
+  "processes_per_mode": 12,
+  "seed": 42
+}

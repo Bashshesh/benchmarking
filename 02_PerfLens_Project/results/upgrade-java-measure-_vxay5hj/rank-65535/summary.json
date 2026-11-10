@@ -1,0 +1,14 @@
+{
+  "comparison": {
+    "change_percent": -99.69999311639529,
+    "ci95_percent": [
+      -99.70288740537234,
+      -99.69713461926169
+    ],
+    "statistical_direction": "faster",
+    "threshold_percent": 5,
+    "decision": "improvement"
+  },
+  "raw_sha256": "6df10fcdede7abb3d094bf57c9e47852e02a56eac4b0756e3a197faea9995c83",
+  "limitation": "virtualized environment on same physical host; no independent-host claim"
+}

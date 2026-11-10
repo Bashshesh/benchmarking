@@ -1,0 +1,14 @@
+{
+  "command": [
+    "docker",
+    "image",
+    "inspect",
+    "--format",
+    "{{.Id}}",
+    "perflens-jmh845:prepared"
+  ],
+  "returncode": 0,
+  "stdout": "sha256:70271150eadba542846ec2f1aeeaa99ec6346f59190aeb5161f0dd446e4f772d\n",
+  "stderr": "",
+  "elapsed_seconds": 0.1089989161118865
+}

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+<rect width="960" height="400" fill="white"/>
+<g font-family="system-ui,sans-serif" fill="#203049">
+<text x="60" y="32" font-size="23" font-weight="bold">RoaringBitmap fullContainerRange-65535 | default HotSpot</text>
+<text x="60" y="56" font-size="13">Time in ns/op · lower is faster · one fresh JVM per arm and pair</text>
+<text x="60" y="88" font-size="15" font-weight="bold">Warmup across JVMs</text>
+<path d="M60 310.00h365" stroke="#dce3ec"/>
+<text x="53" y="314.00" text-anchor="end" font-size="11">0</text>
+<path d="M60 258.75h365" stroke="#dce3ec"/>
+<text x="53" y="262.75" text-anchor="end" font-size="11">375</text>
+<path d="M60 207.50h365" stroke="#dce3ec"/>
+<text x="53" y="211.50" text-anchor="end" font-size="11">750</text>
+<path d="M60 156.25h365" stroke="#dce3ec"/>
+<text x="53" y="160.25" text-anchor="end" font-size="11">1125</text>
+<path d="M60 105.00h365" stroke="#dce3ec"/>
+<text x="53" y="109.00" text-anchor="end" font-size="11">1500</text>
+<text x="60.00" y="327" text-anchor="middle" font-size="11">1</text>
+<text x="242.50" y="327" text-anchor="middle" font-size="11">2</text>
+<text x="425.00" y="327" text-anchor="middle" font-size="11">3</text>
+<text x="242.5" y="350" text-anchor="middle" font-size="13">JMH warmup iteration</text>
+<polyline points="60.00,249.04 242.50,251.54 425.00,252.48" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,249.91 242.50,250.87 425.00,252.18" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,250.01 242.50,251.40 425.00,252.25" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,236.03 242.50,138.89 425.00,226.12" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,248.27 242.50,251.58 425.00,252.42" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,249.09 242.50,250.58 425.00,252.19" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,249.58 242.50,251.53 425.00,248.43" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,246.42 242.50,247.36 425.00,250.56" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,248.74 242.50,248.98 425.00,250.71" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,249.46 242.50,251.42 425.00,250.26" fill="none" stroke="#1565ac" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,249.06 242.50,251.14 425.00,251.44" fill="none" stroke="#1565ac" stroke-width="2.5" opacity="1"/>
+<circle cx="60.00" cy="249.06" r="3" fill="#1565ac"/>
+<circle cx="242.50" cy="251.14" r="3" fill="#1565ac"/>
+<circle cx="425.00" cy="251.44" r="3" fill="#1565ac"/>
+<polyline points="60.00,308.87 242.50,308.88 425.00,308.91" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.87 242.50,308.88 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.87 242.50,308.87 425.00,308.86" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.66 242.50,308.46 425.00,308.67" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.88 242.50,308.89 425.00,308.88" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.86 242.50,308.88 425.00,308.89" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.84 242.50,308.88 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.85 242.50,308.85 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.87 242.50,308.88 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.85 242.50,308.89 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="1" opacity="0.18"/>
+<polyline points="60.00,308.86 242.50,308.88 425.00,308.90" fill="none" stroke="#b34c15" stroke-width="2.5" opacity="1"/>
+<circle cx="60.00" cy="308.86" r="3" fill="#b34c15"/>
+<circle cx="242.50" cy="308.88" r="3" fill="#b34c15"/>
+<circle cx="425.00" cy="308.90" r="3" fill="#b34c15"/>
+<text x="550" y="88" font-size="15" font-weight="bold">Measured score after warmup</text>
+<path d="M550 310.00h365" stroke="#dce3ec"/>
+<text x="543" y="314.00" text-anchor="end" font-size="11">0</text>
+<path d="M550 258.75h365" stroke="#dce3ec"/>
+<text x="543" y="262.75" text-anchor="end" font-size="11">125</text>
+<path d="M550 207.50h365" stroke="#dce3ec"/>
+<text x="543" y="211.50" text-anchor="end" font-size="11">250</text>
+<path d="M550 156.25h365" stroke="#dce3ec"/>
+<text x="543" y="160.25" text-anchor="end" font-size="11">375</text>
+<path d="M550 105.00h365" stroke="#dce3ec"/>
+<text x="543" y="109.00" text-anchor="end" font-size="11">500</text>
+<text x="550.00" y="327" text-anchor="middle" font-size="11">1</text>
+<text x="590.56" y="327" text-anchor="middle" font-size="11">2</text>
+<text x="631.11" y="327" text-anchor="middle" font-size="11">3</text>
+<text x="671.67" y="327" text-anchor="middle" font-size="11">4</text>
+<text x="712.22" y="327" text-anchor="middle" font-size="11">5</text>
+<text x="752.78" y="327" text-anchor="middle" font-size="11">6</text>
+<text x="793.33" y="327" text-anchor="middle" font-size="11">7</text>
+<text x="833.89" y="327" text-anchor="middle" font-size="11">8</text>
+<text x="874.44" y="327" text-anchor="middle" font-size="11">9</text>
+<text x="915.00" y="327" text-anchor="middle" font-size="11">10</text>
+<text x="732.5" y="350" text-anchor="middle" font-size="13">Paired run</text>
+<polyline points="550.00,136.71 590.56,136.12 631.11,131.53 671.67,136.68 712.22,135.87 752.78,117.39 793.33,135.02 833.89,136.42 874.44,133.96 915.00,136.54" fill="none" stroke="#1565ac" stroke-width="2.5" opacity="1"/>
+<circle cx="550.00" cy="136.71" r="3" fill="#1565ac"/>
+<circle cx="590.56" cy="136.12" r="3" fill="#1565ac"/>
+<circle cx="631.11" cy="131.53" r="3" fill="#1565ac"/>
+<circle cx="671.67" cy="136.68" r="3" fill="#1565ac"/>
+<circle cx="712.22" cy="135.87" r="3" fill="#1565ac"/>
+<circle cx="752.78" cy="117.39" r="3" fill="#1565ac"/>
+<circle cx="793.33" cy="135.02" r="3" fill="#1565ac"/>
+<circle cx="833.89" cy="136.42" r="3" fill="#1565ac"/>
+<circle cx="874.44" cy="133.96" r="3" fill="#1565ac"/>
+<circle cx="915.00" cy="136.54" r="3" fill="#1565ac"/>
+<polyline points="550.00,306.71 590.56,306.71 631.11,306.52 671.67,306.70 712.22,306.70 752.78,306.67 793.33,306.70 833.89,306.70 874.44,306.72 915.00,306.70" fill="none" stroke="#b34c15" stroke-width="2.5" opacity="1"/>
+<circle cx="550.00" cy="306.71" r="3" fill="#b34c15"/>
+<circle cx="590.56" cy="306.71" r="3" fill="#b34c15"/>
+<circle cx="631.11" cy="306.52" r="3" fill="#b34c15"/>
+<circle cx="671.67" cy="306.70" r="3" fill="#b34c15"/>
+<circle cx="712.22" cy="306.70" r="3" fill="#b34c15"/>
+<circle cx="752.78" cy="306.67" r="3" fill="#b34c15"/>
+<circle cx="793.33" cy="306.70" r="3" fill="#b34c15"/>
+<circle cx="833.89" cy="306.70" r="3" fill="#b34c15"/>
+<circle cx="874.44" cy="306.72" r="3" fill="#b34c15"/>
+<circle cx="915.00" cy="306.70" r="3" fill="#b34c15"/>
+<text x="60" y="380" fill="#1565ac" font-size="14">Before 2dfd0fb</text>
+<text x="280" y="380" fill="#b34c15" font-size="14">After 684531c</text>
+<text x="550" y="380" font-size="12">Faint lines show individual JVM warmup traces</text>
+</g></svg>
