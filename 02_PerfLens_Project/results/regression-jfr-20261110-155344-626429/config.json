@@ -1,0 +1,10 @@
+{
+  "reference": "optimized",
+  "candidate": "baseline",
+  "size": 4000,
+  "queries": 1000,
+  "warmup_rounds": 100,
+  "measurement_rounds": 1800,
+  "pairs": 5,
+  "threshold_percent": 5
+}

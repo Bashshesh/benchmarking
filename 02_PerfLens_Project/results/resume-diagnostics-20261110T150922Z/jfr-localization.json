@@ -1,0 +1,73 @@
+{
+  "65535": {
+    "reference": {
+      "revision": "684531c13877fbdacccf02262b32e6faf889d76f",
+      "calls": 1676762848,
+      "workload_samples": 47
+    },
+    "candidate": {
+      "revision": "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+      "calls": 7191168,
+      "workload_samples": 254
+    },
+    "status": "profiled",
+    "candidates": [
+      {
+        "method": "org.roaringbitmap.BitmapContainer.rank",
+        "reference": {
+          "samples": 13,
+          "share_percent": 27.66,
+          "samples_per_million_calls": 0.008
+        },
+        "candidate": {
+          "samples": 253,
+          "share_percent": 99.61,
+          "samples_per_million_calls": 35.182
+        },
+        "added_samples_per_million_calls": 35.174,
+        "candidate_leaf_lines": [
+          {
+            "line": 1160,
+            "samples": 253
+          }
+        ]
+      }
+    ]
+  },
+  "65534": {
+    "reference": {
+      "revision": "684531c13877fbdacccf02262b32e6faf889d76f",
+      "calls": 7315392,
+      "workload_samples": 256
+    },
+    "candidate": {
+      "revision": "2dfd0fb994468c8d416dea3d217dc40ca7d6d145",
+      "calls": 7403712,
+      "workload_samples": 256
+    },
+    "status": "profiled",
+    "candidates": [
+      {
+        "method": "org.roaringbitmap.BitmapContainer.rank",
+        "reference": {
+          "samples": 251,
+          "share_percent": 98.05,
+          "samples_per_million_calls": 34.311
+        },
+        "candidate": {
+          "samples": 255,
+          "share_percent": 99.61,
+          "samples_per_million_calls": 34.442
+        },
+        "added_samples_per_million_calls": 0.131,
+        "candidate_leaf_lines": [
+          {
+            "line": 1160,
+            "samples": 255
+          }
+        ]
+      }
+    ]
+  },
+  "interpretation": "Diagnostic recordings include warmup. Stack samples are inclusive and can overlap. Samples per million calls account for different call counts in the fixed-duration recordings. Use unprofiled JMH results for benchmark timings."
+}

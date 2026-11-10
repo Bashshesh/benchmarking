@@ -1,0 +1,13 @@
+{
+  "comparison": {
+    "change_percent": -6.167302251157658,
+    "ci95_percent": [
+      -17.641904333893144,
+      4.509509965741643
+    ],
+    "statistical_direction": "uncertain",
+    "threshold_percent": 5,
+    "decision": "inconclusive"
+  },
+  "profile_status": "skipped_no_confirmed_regression"
+}

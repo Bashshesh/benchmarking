@@ -1,0 +1,14 @@
+{
+  "profiled_seconds_per_round": {
+    "reference": 3.4438958333333335e-05,
+    "candidate": 3.0405255000000002e-05
+  },
+  "profiled_candidate_to_reference_time_ratio": 0.8828738286944897,
+  "workload_samples": {
+    "reference": 5,
+    "candidate": 4
+  },
+  "profile_status": "insufficient_samples",
+  "candidates": [],
+  "interpretation": "Inclusive stack samples overlap across methods. Leaf lines show where sampling observed execution. Timings include profiling overhead."
+}

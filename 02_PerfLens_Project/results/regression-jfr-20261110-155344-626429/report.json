@@ -1,0 +1,25 @@
+{
+  "comparison": {
+    "change_percent": 1638.7321506235266,
+    "ci95_percent": [
+      1381.0161013550592,
+      1970.1605248048709
+    ],
+    "statistical_direction": "slower",
+    "threshold_percent": 5,
+    "decision": "regression"
+  },
+  "workload_samples": {
+    "reference": 3,
+    "candidate": 86
+  },
+  "profile_status": "candidates_found",
+  "candidates": [
+    {
+      "method": "SearchBench.search",
+      "reference_samples": 3,
+      "candidate_samples": 86,
+      "added_samples": 83
+    }
+  ]
+}

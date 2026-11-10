@@ -1,0 +1,34 @@
+{
+  "profiled_seconds_per_round": {
+    "reference": 4.3893565e-05,
+    "candidate": 0.0005687315511111111
+  },
+  "profiled_candidate_to_reference_time_ratio": 12.957059904136543,
+  "workload_samples": {
+    "reference": 6,
+    "candidate": 82
+  },
+  "profile_status": "candidates_found",
+  "candidates": [
+    {
+      "method": "SearchBench.search",
+      "reference_stack_samples": 6,
+      "candidate_stack_samples": 82,
+      "added_stack_samples": 76,
+      "candidate_share_percent": 100.0,
+      "directly_sampled_lines": [
+        {
+          "line": 13,
+          "reference_samples": 0,
+          "candidate_samples": 82
+        },
+        {
+          "line": 9,
+          "reference_samples": 1,
+          "candidate_samples": 0
+        }
+      ]
+    }
+  ],
+  "interpretation": "Inclusive stack samples overlap across methods. Leaf lines show where sampling observed execution. Timings include profiling overhead."
+}

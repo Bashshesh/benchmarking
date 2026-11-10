@@ -1,0 +1,59 @@
+Property settings:
+    file.encoding = UTF-8
+    file.separator = /
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    java.class.path = 
+    java.class.version = 63.0
+    java.home = /Users/bashshesh/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home
+    java.io.tmpdir = /var/folders/q8/p7ft232j6nb2cm6f5ywm518w0000gn/T/
+    java.library.path = /Users/bashshesh/Library/Java/Extensions
+        /Library/Java/Extensions
+        /Network/Library/Java/Extensions
+        /System/Library/Java/Extensions
+        /usr/lib/java
+        .
+    java.runtime.name = OpenJDK Runtime Environment
+    java.runtime.version = 19.0.2+7-44
+    java.specification.name = Java Platform API Specification
+    java.specification.vendor = Oracle Corporation
+    java.specification.version = 19
+    java.vendor = Oracle Corporation
+    java.vendor.url = https://java.oracle.com/
+    java.vendor.url.bug = https://bugreport.java.com/bugreport/
+    java.version = 19.0.2
+    java.version.date = 2023-01-17
+    java.vm.compressedOopsMode = Zero based
+    java.vm.info = mixed mode, sharing
+    java.vm.name = OpenJDK 64-Bit Server VM
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.vendor = Oracle Corporation
+    java.vm.specification.version = 19
+    java.vm.vendor = Oracle Corporation
+    java.vm.version = 19.0.2+7-44
+    jdk.debug = release
+    line.separator = \n 
+    native.encoding = UTF-8
+    os.arch = x86_64
+    os.name = Mac OS X
+    os.version = 14.4.1
+    path.separator = :
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    stderr.encoding = UTF-8
+    stdout.encoding = UTF-8
+    sun.arch.data.model = 64
+    sun.boot.library.path = /Users/bashshesh/Library/Java/JavaVirtualMachines/openjdk-19.0.2/Contents/Home/lib
+    sun.cpu.endian = little
+    sun.io.unicode.encoding = UnicodeBig
+    sun.java.launcher = SUN_STANDARD
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.country = KZ
+    user.dir = /Users/bashshesh/Downloads/Team_Shared_v2/Team_Shared_v2/02_PerfLens_Project
+    user.home = /Users/bashshesh
+    user.language = ru
+    user.name = bashshesh
+
+openjdk version "19.0.2" 2023-01-17
+OpenJDK Runtime Environment (build 19.0.2+7-44)
+OpenJDK 64-Bit Server VM (build 19.0.2+7-44, mixed mode, sharing)
